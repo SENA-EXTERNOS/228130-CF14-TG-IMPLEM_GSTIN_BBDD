@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="815.25" height="404.977" viewBox="0 0 815.25 404.977">
+  <g id="Grupo_146481" data-name="Grupo 146481" transform="translate(2679.484 -1913.693)">
+    <circle id="Elipse_4913" data-name="Elipse 4913" cx="61.928" cy="61.928" r="61.928" transform="translate(-1990.59 1992.662)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <g id="Grupo_132265" data-name="Grupo 132265">
+      <path id="Trazado_192782" data-name="Trazado 192782" d="M-2367.283,2274.75l195.363-7.567,2.751-150.665-246.955,33.97-219.439,82.841,24.764-149.962,194.675,67.121,35.083-140.038,224.943-52.836-13.07,158.9" fill="none" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Trazado_192783" data-name="Trazado 192783" d="M-2610.8,2083.367l123.134-72.917h106.624" fill="none" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4914" data-name="Elipse 4914" cx="41.42" cy="41.42" r="41.42" transform="translate(-2652.22 2041.947)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4915" data-name="Elipse 4915" cx="41.42" cy="41.42" r="41.42" transform="translate(-2676.984 2191.909)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4916" data-name="Elipse 4916" cx="41.42" cy="41.42" r="41.42" transform="translate(-2529.086 1969.03)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4917" data-name="Elipse 4917" cx="41.42" cy="41.42" r="41.42" transform="translate(-2422.462 1969.03)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4918" data-name="Elipse 4918" cx="41.42" cy="41.42" r="41.42" transform="translate(-2457.545 2109.068)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4919" data-name="Elipse 4919" cx="41.42" cy="41.42" r="41.42" transform="translate(-2408.704 2233.329)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4920" data-name="Elipse 4920" cx="41.42" cy="41.42" r="41.42" transform="translate(-2213.341 2225.762)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4921" data-name="Elipse 4921" cx="41.42" cy="41.42" r="41.42" transform="translate(-2210.589 2075.098)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Elipse_4922" data-name="Elipse 4922" cx="41.42" cy="41.42" r="41.42" transform="translate(-2197.519 1916.193)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <line id="Línea_322" data-name="Línea 322" x2="127.661" transform="translate(-1994.396 2207.287)" fill="#fff" stroke="#084a93" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <text id="Aristas" transform="translate(-1930.55 2239.332)" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-32.334" y="0">Aristas</tspan></text>
+    <text id="Nodos" transform="translate(-1928.662 2060.436)" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-28.999" y="0">Nodos</tspan></text>
+  </g>
+</svg>

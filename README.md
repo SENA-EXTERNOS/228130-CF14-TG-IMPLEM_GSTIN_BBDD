@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Estructura de las bases de datos NoSQL**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/228130-CF14-TG-IMPLEM_GSTIN_BBDD](https://sena-externos.github.io/228130-CF14-TG-IMPLEM_GSTIN_BBDD)
 
 #
 

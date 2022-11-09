@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 55%
+    right: 90%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 85%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 0%
 
 
 @keyframes float1
@@ -17,3 +22,140 @@
 
   100%
     transform: translateY(0px)
+
+// COLORES CORTOS
+.cp
+  color: $color-primario !important
+
+.cs
+  color: $color-secundario !important
+  
+.cac
+  color: $color-acento-contenido !important
+
+.cab
+  color: $color-acento-botones !important
+
+.cst
+  color: $color-sistema-texto !important
+
+.cfc
+  background-color: rgb(255, 228, 169) !important
+
+.cfc4
+  background-color: rgb(217, 250, 255)
+
+.cfa5
+  background-color: rgb(151, 229, 239) !important
+
+.cta
+  color: $color-texto-anexo !important
+
+.tarjeta--gris
+  background-color: rgb(232, 232, 232) !important
+
+.bloque-texto-p
+  background-color: #FFE4A9
+  &:before
+    background-color: #DCF5F7
+
+.bloque-texto-3
+  background-color: #FFFFFF
+  &:before
+    background-color: #FFE4A9
+
+.bloque-texto-4
+  background-color: #DEF3F3
+  &:before
+    background-color: #FCE3AC
+
+.banner-principal__img
+  width: auto
+
+.banner-interno__fondo
+  background-position: bottom !important
+
+.contenedor-dashed
+  border: 2px dashed #004B89
+
+.img1-2
+  &::before
+    background-image: url('../assets/curso/temas/tema1/img1-2.svg')
+    background-size: cover
+    background-position: center center
+
+.img2-4
+  background-image: url('../assets/curso/temas/tema2/img2-4.svg') !important
+  background-size: cover
+
+.img4-1
+  &::before
+    background-image: url('../assets/curso/temas/tema4/img4-1.png')
+    background-size: cover
+    background-position: center center
+
+.img420
+  &::before
+    background-image: url('../assets/curso/temas/tema4/img4-20.png')
+    background-size: cover
+    background-position: center center
+
+.img511
+  &::before
+    background-image: url('../assets/curso/temas/tema5/img5-11.png')
+    background-size: cover
+    background-position: center center
+    
+.bloque-texto-izquierda
+  .bloque-texto-a:before
+    left: 0  !important
+    right: 50% !important
+
+.bloque-texto-b__texto.p-4
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: calc( 100% + 2rem )
+    height: calc( 100% + 2rem )
+    border: dashed $color-primario
+    top: -1rem
+    left: -1rem
+
+.acordion__accion__btn--a
+  background-color: #084A93
+  i
+    color: $white
+
+.contenedor-dashed
+  border: 2px dashed #004B89
+
+.borde-dashed
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: calc( 100% + 2rem )
+    height: calc( 100% + 2rem )
+    border: dashed $color-primario
+    top: -1rem
+    left: -1rem
+
+.tarjeta--azul
+  background-color: rgb(241, 248, 255) !important
+
+.slyder-a__btn--sigt
+  background-color: $color-acento-botones
+
+.slyder-a__btn--atrs
+  background-color: $color-acento-botones
+
+// .img-infografica-b__modal
+//   background-color: rgb(220, 238, 253) !important
+
+// .img-infografica-b__modal__btn-cerrar
+//   i
+//     color: #12263F
+
+// .img-infografica-b__modal__contenido
+//   color: rgb(24, 44, 68) !important

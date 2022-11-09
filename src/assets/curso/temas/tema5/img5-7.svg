@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439" height="517" viewBox="0 0 439 517">
+  <g id="Grupo_146499" data-name="Grupo 146499" transform="translate(-743 -6294)">
+    <g id="Grupo_131908" data-name="Grupo 131908" transform="translate(743 6294)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="439" height="517" fill="#ffe9ba"/>
+      <text id="_db.orders_detail.getIndexes_v_:_2_key_:__id_:_1_name_:__id__v_:_2_key_:_order_date_:_1_name_:_order_date_1_" data-name="&gt; db.orders_detail.getIndexes()
+[
+    {
+        &quot;v&quot;: 2,
+        &quot;key&quot;: {
+            &quot;_id&quot;: 1
+        },
+         &quot;name&quot;: &quot;_id_&quot;
+    },
+    {
+        &quot;v&quot;: 2,
+        &quot;key&quot;: {
+            &quot;order_date&quot;: 1
+        },
+         &quot;name&quot;: &quot;order_date_1&quot;
+    },
+   " transform="translate(24 10)" fill="#182c44" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="15">&gt; db.orders_detail.getIndexes()</tspan><tspan x="0" y="35">[</tspan><tspan x="0" y="55" xml:space="preserve">    {</tspan><tspan x="0" y="75" xml:space="preserve">        &quot;v&quot;: 2,</tspan><tspan x="0" y="95" xml:space="preserve">        &quot;key&quot;: {</tspan><tspan x="0" y="115" xml:space="preserve">            &quot;_id&quot;: 1</tspan><tspan x="0" y="135" xml:space="preserve">        },</tspan><tspan x="0" y="155" xml:space="preserve">         &quot;name&quot;: &quot;_id_&quot;</tspan><tspan x="0" y="175" xml:space="preserve">    },</tspan><tspan x="0" y="195" xml:space="preserve">    {</tspan><tspan x="0" y="215" xml:space="preserve">        &quot;v&quot;: 2,</tspan><tspan x="0" y="235" xml:space="preserve">        &quot;key&quot;: {</tspan><tspan x="0" y="255" xml:space="preserve">            &quot;order_date&quot;: 1</tspan><tspan x="0" y="275" xml:space="preserve">        },</tspan><tspan x="0" y="295" xml:space="preserve">         &quot;name&quot;: &quot;order_date_1&quot;</tspan><tspan x="0" y="315" xml:space="preserve">    },</tspan><tspan x="0" y="335" xml:space="preserve">    {</tspan><tspan x="0" y="355" xml:space="preserve">        &quot;v&quot;: 2,</tspan><tspan x="0" y="375" xml:space="preserve">        &quot;key&quot;: {</tspan><tspan x="0" y="395" xml:space="preserve">            &quot;order_date&quot;: 1,</tspan><tspan x="0" y="415" xml:space="preserve">            &quot;Date&quot;: -1</tspan><tspan x="0" y="435" xml:space="preserve">        },</tspan><tspan x="0" y="455" xml:space="preserve">         &quot;name&quot;: &quot;order_date_1_Date_-1&quot;</tspan><tspan x="0" y="475" xml:space="preserve">    }</tspan><tspan x="0" y="495">]</tspan></text>
+      <rect id="Rectángulo_293787" data-name="Rectángulo 293787" width="8" height="517" fill="#ffb30b"/>
+    </g>
+  </g>
+</svg>

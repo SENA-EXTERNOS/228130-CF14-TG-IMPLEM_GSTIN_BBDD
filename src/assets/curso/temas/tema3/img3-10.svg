@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="376.5" height="271.5" viewBox="0 0 376.5 271.5">
+  <g id="Grupo_146474" data-name="Grupo 146474" transform="translate(1095.149 -2497.762)">
+    <rect id="Rectángulo_293896" data-name="Rectángulo 293896" width="373.5" height="268.5" rx="20" transform="translate(-1093.649 2499.262)" fill="none" stroke="#084a93" stroke-miterlimit="10" stroke-width="3"/>
+    <text id="_nombres_:_JUAN_CARLOS_apellidos_:_MARTINEZ_fecha_nacimiento_:_1995-05-15_edad_:_65_saldo_:_9876.134_hobbies_:_música_futbol_leer_correo_:_juancho_nerss.et_pedidos_:_acreedores_:_null" data-name="“nombres” : “JUAN CARLOS”,
+“apellidos” : “MARTINEZ”,
+“fecha_nacimiento” : “1995-05-15”,
+“edad” : 65,
+&quot;saldo&quot; : 9876.134,
+“hobbies” : [”música”, “futbol”, “leer”],
+“correo” : “juancho@nerss.et”,
+“pedidos” : [ ],
+“acreedores” : null" transform="translate(-1036.149 2533.762)" fill="#084a93" font-size="16" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">“nombres” : “JUAN CARLOS”,</tspan><tspan x="0" y="27">“apellidos” : “MARTINEZ”,</tspan><tspan x="0" y="54">“fecha_nacimiento” : “1995-05-15”,</tspan><tspan x="0" y="81">“edad” : 65,</tspan><tspan x="0" y="108">&quot;saldo&quot; : 9876.134,</tspan><tspan x="0" y="135">“hobbies” : [”música”, “futbol”, “leer”],</tspan><tspan x="0" y="162">“correo” : “juancho@nerss.et”,</tspan><tspan x="0" y="189">“pedidos” : [ ],</tspan><tspan x="0" y="216">“acreedores” : null</tspan></text>
+  </g>
+</svg>
