@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Selección múltiple
             .col-auto
-              a.boton.color-acento-contenido(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.color-acento-contenido(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
