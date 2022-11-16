@@ -1,9 +1,10 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
-    top: 55%
+    top: 65%
     right: 90%
+    width: 40%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
@@ -15,13 +16,17 @@
     top: 60%
     right: 0%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+@media screen and (max-width: 767px)
+  figure
+    img
+      max-width: 350px
 
 // COLORES CORTOS
 .cp
@@ -150,12 +155,16 @@
 .slyder-a__btn--atrs
   background-color: $color-acento-botones
 
-// .img-infografica-b__modal
-//   background-color: rgb(220, 238, 253) !important
+.img-infografica-b__modal
+  background-color: rgb(220, 238, 253) !important
+  &__contenido
+    .h5, h5, p, span, ol, li, em
+      color: #12263F !important
 
-// .img-infografica-b__modal__btn-cerrar
-//   i
-//     color: #12263F
+.img-infografica-b__modal__btn-cerrar
+  i
+    color: #12263F
 
-// .img-infografica-b__modal__contenido
-//   color: rgb(24, 44, 68) !important
+//.img-infografica-b__modal__contenido
+  //color: #12263F !important
+  //color: rgb(24, 44, 68) !important

@@ -3,15 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5
-      .col-md-11
-        .titulo-sexto.color-acento-contenido.mb-5
-            h4 Tecnólogo en implementación y gestión de bases de datos.
-            p.mb-0 Síntesis: estructura de las bases de datos NoSQL.
-      .col-md-1
-        figure.logo-size
-          img(src="@/assets/curso/temas/logo.svg", alt="alt")
-
     p.mb-5 Estimado Aprendiz te invitamos a revisar el resumen de las temáticas abordadas en el desarrollo del componente formativo.
 
     .row.justify-content-center.align-items-center.mb-5

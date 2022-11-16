@@ -10,7 +10,7 @@
     .bloque-texto-izquierda.mb-5
       .bloque-texto-a.bloque-texto-3.p-4(data-aos="zoom-in" style="background-color: #FFFFFF")
         .row.m-0.align-items-center.justify-content-between
-          .col-lg-7
+          .col-lg-7.order-lg-first.order-sm-last
             .contenedor-dashed.p-3
               .bloque-texto-a__texto.p-4
                 p.mb-0 Dentro de las bases de datos no relacionales, se encuentran distintos modelos o tipos de implementaciones. Este grupo de bases de datos no relacionales NoSQL desempeñan funciones para diferentes ambientes en particular y con necesidades también diferentes. Existen algunos tipos más comunes que otros, ya que están orientadas a documentos por permitir mejor escalabilidad horizontal, (Macarrón, 2021).
@@ -21,7 +21,7 @@
       i.fas.fa-square.cac.me-3
       |Bases de datos basadas en clave valor
 
-    p.mb-5 A continuación, se presentan algunos referentes para tener en cuenta con relación a las bases de datos basadas en claves valor.
+    p.mb-5(data-aos="fade-right") A continuación, se presentan algunos referentes para tener en cuenta con relación a las bases de datos basadas en claves valor.
 
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo='b')
@@ -305,10 +305,10 @@
       |Bases de datos no relacionales no documentadas
 
     .row.mb-5
-      .col-md-1
+      .col-md-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.svg', alt='Monitor y persona')
-      .col-md-11
+      .col-md-11(data-aos="fade-left")
         p Las bases de datos no relacionales documentales se caracterizan por el concepto de guardar la información con el modelo de clave/valor. Es por eso por lo que los documentos más comunes son en formato JSON; la diferencia fundamental de este tipo de bases de datos radica en que un documento se almacena en una clave en la BD correspondiente. Esta definición puede parecer abstracta, se complementa mejor su concepto por medio de un ejemplo.
 
     .tarjeta.tarjeta--azul.p-4.mb-5
@@ -385,28 +385,28 @@
       i.fas.fa-square.cac.me-3
       |Bases de datos orientada a grafos
 
-    p.mb-5 Un grafo es una colección de elementos “nodos”, que aportan información y relacionados mediante “aristas”, que son la conexión entre los nodos, y que pueden tener una dirección concreta (Macarrón, 2021).
+    p.mb-5(data-aos="fade-right") Un grafo es una colección de elementos “nodos”, que aportan información y relacionados mediante “aristas”, que son la conexión entre los nodos, y que pueden tener una dirección concreta (Macarrón, 2021).
 
     .row.justify-content-center.mb-5
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           br
           em Base de datos orientada a grafos
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema3/img3-15.svg', alt='Grafos')
           figcaption Nota: adaptado de Macarrón, (2021).
           
     .row.mb-4
-      .col-md-1
+      .col-md-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img3-16.svg', alt='Código')
-      .col-md-11
+      .col-md-11(data-aos="fade-left")
         p Este es un tipo de base de datos muy diferente a los anteriores; maneja la información de una manera particular, empleando grafos y teoría de grafos. Cada nodo solo debe contener una sola columna, entonces se deben normalizar completamente las bases de datos y solo aplica para grafos de tipo binario; cada nodo solo se puede relacionar con otros dos nodos como máximo. Las ventajas de este tipo de bases de datos van enfocadas a la integridad de los datos y la optimización de consultas.
         p A continuación, un listado de las bases de datos más reconocidas:
 
     .row.justify-content-center
-      .col-md-8
+      .col-md-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 7.
           br

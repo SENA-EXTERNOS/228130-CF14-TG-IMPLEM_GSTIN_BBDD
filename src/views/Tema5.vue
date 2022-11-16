@@ -10,7 +10,7 @@
     .bloque-texto-izquierda.mb-5
       .bloque-texto-a.bloque-texto-3.p-4(data-aos="zoom-in" style="background-color: #DEF3F3")
         .row.m-0.align-items-center.justify-content-between
-          .col-lg-7
+          .col-lg-7.order-lg-first.order-sm-last
             .contenedor-dashed.p-3
               .bloque-texto-a__texto.p-4
                 p.mb-0 Una función almacenada es un conjunto de instrucciones que realizan en determina operación y devuelven un único valor. Se presenta a continuación sus características y estructura.
@@ -21,17 +21,17 @@
       i.fas.fa-square.cac.me-3
       |Operaciones CRUD
 
-    p.mb-5 En una base de datos de tipo NoSQL se realizan también las operaciones CRUD como lo son: guardar, modificar, eliminar y consultar documentos de la base de datos. A continuación, se describen cada una de ellas:
+    p.mb-5(data-aos="fade-left") En una base de datos de tipo NoSQL se realizan también las operaciones CRUD como lo son: guardar, modificar, eliminar y consultar documentos de la base de datos. A continuación, se describen cada una de ellas:
 
     .row.justify-content-center.mb-5
-      .col-md-8
+      .col-md-8(data-aos="zoom-in")
         ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema5/img5-2.svg', alt='CRUD')
               
           div(x="86%" y="13%" tooltip="C" numero="+")
-            .h5.mb-2 Guardar datos en MongoDB
+            .h5.mb-4 Guardar datos en MongoDB
             p La base de datos MongoDB dispone de los siguientes métodos para realizar la inserción de datos:
             ol
               li.mb-3
@@ -54,7 +54,7 @@
                 |Este método es multifuncional, es usado para insertar un documento o varios documentos dentro de la colección.
 
           div(x="86%" y="38%" tooltip="R" numero="+")
-            .h5.mb-2 Consultas
+            .h5.mb-4 Consultas
             p En MongoDB también se puede realizar una búsqueda de todos los documentos dentro de una colección por medio del método 
               em Find()
               |, como en el caso de SQL sería un 
@@ -83,7 +83,7 @@
                 |Este operador $and en MongoDB permite la comparación de dos documentos y retorna el resultado cuando las condiciones coinciden.
 
           div(x="86%" y="62%" tooltip="U" numero="+")
-            .h5.mb-2 Modificación de datos en MongoDB
+            .h5.mb-4 Modificación de datos en MongoDB
             p La base de datos MongoDB dispone de los siguientes métodos para realizar la modificación de datos:
             ol
               li.mb-3
@@ -102,7 +102,7 @@
                 |Este método se implementa para modificar todos los documentos que coindicen con el filtro aplicado.
 
           div(x="86%" y="87%" tooltip="D" numero="+")
-            .h5.mb-2 Eliminación de datos en MongoDB
+            .h5.mb-4 Eliminación de datos en MongoDB
             p MongoDb nos brinda dos métodos para la eliminación de datos dentro de una colección; a continuación, se explica cada uno de los métodos:
             ol
               li.mb-3
@@ -138,10 +138,10 @@
       i.fas.fa-square.cac.me-3
       |Índices
 
-    p.mb-5 Se abordará ahora el concepto de índices en MongoDB, así como su sintaxis y un ejemplo de este.
+    p.mb-5(data-aos="fade-right") Se abordará ahora el concepto de índices en MongoDB, así como su sintaxis y un ejemplo de este.
 
     .row.justify-content-center.mb-5
-      .col-md-10
+      .col-md-10(data-aos="zoom-in")
         ImagenInfograficaB.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure
@@ -180,7 +180,7 @@
           div(x="69%" y="62%" tooltip="3" numero="+")
             .row
               .col-md-6
-                h5 Ejemplo del método 
+                h5.mb-4 Ejemplo del método 
                   em db.collection_name.createIndex()
                 p El índice se crea en orden ascendente.
                 figure
@@ -192,7 +192,7 @@
           div(x="69%" y="82%" tooltip="4" numero="+")
             .row
               .col-md-4
-                h5 Ejemplo del método 
+                h5.mb-4 Ejemplo del método 
                   em db.collection_name.getIndexes()
                 p 
                   em db.orders_detail.getIndexes()
@@ -206,14 +206,14 @@
       em scripts
 
     .row.align-items-center.mb-5
-      .col-md-1
+      .col-md-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-8.svg', alt='Código')
-      .col-md-11
+      .col-md-11(data-aos="fade-left")
         p.mb-0 El comando de validación verifica la corrección de los datos e índices de una colección y devuelve los resultados. Además, este comando también puede encontrar inconsistencias en la colección y corregirlas si es posible.
 
     .row.mb-5
-      .col-md-9
+      .col-md-9(data-aos="fade-right")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Las inconsistencias de un índice incluyen:")
             ol
@@ -285,26 +285,27 @@
                 .titulo-sexto.color-acento-botones.cfa5(data-aos="fade-left")
                   p.mb-0
                     em db.runCommand( { validate: "myCollection", metadata: true } )
-      .col-md-3
+      .col-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/img5-9.png', alt='Código')
 
     .row.justify-content-center.mb-5
-      .col-md-10
+      .col-md-10(data-aos="flip-up")
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5.img511
           .row.m-0.align-items-center.justify-content-between
             .col-lg-10
-              .bloque-texto-a__texto.p-4
-                h4 Herramientas de depuración
-                p.mb-0 Cuando se aborda la temática de depuración de datos se hace referencia al conjunto de procesos necesarios para la preparación y transformación de datos procedentes de distintas fuentes para su análisis.
+              .contenedor-dashed.p-4
+                .bloque-texto-a__texto.p-4
+                  h4 Herramientas de depuración
+                  p.mb-0 Cuando se aborda la temática de depuración de datos se hace referencia al conjunto de procesos necesarios para la preparación y transformación de datos procedentes de distintas fuentes para su análisis.
 
-    p.mb-5 Principales herramientas de depuración de datos:
+    p.mb-5(data-aos="fade-right") Principales herramientas de depuración de datos:
 
     .row.justify-content-center.mb-5
-      .col-md-2
+      .col-md-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-12.svg', alt='Código binario')
-      .col-md-8
+      .col-md-8(data-aos="fade-left")
         ol
           li.mb-3
             i.fas.fa-square.cac.me-3
@@ -337,17 +338,16 @@
       |Herramientas de versionamiento de bases de datos
 
     .row.align-items-center.mb-5
-      .col-md-1
+      .col-md-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-13.svg', alt='Código')
-      .col-md-11
+      .col-md-11(data-aos="fade-left")
         p.mb-0 Su objetivo principal es mantener el control de todos los cambios realizados sobre la base de datos, almacenando la data de los mismos como lo es; autor, fecha, cambio, etc., relacionando dichos cambios a los desarrollos realizados sobre la aplicación e integrándolos con el propio control de versiones del código fuente.
 
-    .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img5-14.png')})`}"
       )
-      .contenedor-dashed.p-4.mb-5
       .bloque-texto-g__texto.p-4.borde-dashed
         h4 Características
         br
@@ -392,12 +392,12 @@
 
     p.mb-5 En el siguiente video se puede observar el proceso de construcción de una base de datos en un motor de bases de datos NoSQL:
 
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     .row.justify-content-center
-      .col-md-8
+      .col-md-8(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4.mb-4
           p Tenga en cuenta que el componente formativo dispone de más recursos que se ubican en este, para ello diríjase al menú principal en donde encontrará entre otros, la síntesis, una actividad didáctica y el material complementario.
 

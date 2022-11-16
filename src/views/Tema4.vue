@@ -8,22 +8,23 @@
       h1 Procedimientos y funciones almacenadas
 
     .row.justify-content-center.mb-5
-      .col-md-10
+      .col-md-10(data-aos="zoom-in")
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5.img4-1
           .row.m-0.align-items-center.justify-content-between
             .col-lg-10
-              .bloque-texto-a__texto.p-4
-                p.mb-0 En bases de datos no relacionales o NoSQL, no se realizan procedimientos almacenados se pueden realizar funciones que se enfocan en casos puntuales para ejecutar en las bases de datos. A continuación, se aborda los procedimientos almacenados y su respectiva estructura en bases de datos SQL.
+              .contenedor-dashed.p-4
+                .bloque-texto-a__texto.p-4
+                  p.mb-0 En bases de datos no relacionales o NoSQL, no se realizan procedimientos almacenados se pueden realizar funciones que se enfocan en casos puntuales para ejecutar en las bases de datos. A continuación, se aborda los procedimientos almacenados y su respectiva estructura en bases de datos SQL.
   
     h3(data-aos="fade-right").mb-5
       i.fas.fa-square.cac.me-3
       |Procedimientos almacenados
 
     .row.mb-5
-      .col-md-1
+      .col-lg-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img4-2.svg', alt='Datos almacenados')
-      .col-md-11
+      .col-lg-11(data-aos="fade-right")
         p Un procedimiento almacenado es un conjunto de instrucciones que se pueden llamar desde otras consultas o desde otros procedimientos almacenados. Un procedimiento puede tomar argumentos de entrada y mostrar valores como resultados. En estos casos se debe nombrar y almacenar un procedimiento en un conjunto de datos de 
           em BigQuery
           |. Un procedimiento almacenado puede acceder a los datos o modificarlos en varios conjuntos de datos de varios usuarios. También puede contener una consulta de varias instrucciones.
@@ -113,11 +114,11 @@
       |Funciones almacenadas
 
     .row.justify-content-center.mb-5
-      .col-md-10
+      .col-md-10(data-aos="zoom-in")
         .bloque-texto-izquierda
           .bloque-texto-a.bloque-texto-3.p-4(data-aos="zoom-in" style="background-color: #DEF3F3")
             .row.m-0.align-items-center.justify-content-between
-              .col-lg-7
+              .col-lg-7.order-lg-first.order-sm-last
                 .contenedor-dashed.p-3
                   .bloque-texto-a__texto.p-4
                     p.mb-0 Una función almacenada es un conjunto de instrucciones que realizan en determina operación y devuelven un único valor. Se presenta a continuación sus características y estructura.
@@ -128,7 +129,7 @@
       .col-md-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Características")
-            .col-md-10
+            .col-md-10.order-lg-first.order-sm-last
               p Teniendo en cuenta la gran variedad de funciones realizadas en una base de datos y tomando como referencia la base de datos MongoDB, las funciones a construir se realizan por medio del lenguaje JavaScript y son almacenadas en una colección del sistema llamada 
                 em system.js.
               p Para la construcción de una función en MongoDB se debe tener en cuenta:
@@ -193,7 +194,7 @@
       | Disparadores
 
     .row.mb-5
-      .col-md-9
+      .col-md-9(data-aos="fade-left")
         TabsA.color-primario
           .tarjeta.tarjeta--gris.p-4(titulo="Características")
             p MongoDB 
@@ -274,18 +275,19 @@
       |Paquetes de bases de datos
 
     .row.justify-content-center.mb-5
-      .col-md-10
+      .col-md-10(data-aos="zoom-in")
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5.img420
           .row.m-0.align-items-center.justify-content-between
             .col-lg-7
-              .bloque-texto-a__texto.p-4
-                p.mb-0 Los paquetes en PL/SQL tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta forma, se consigue obtener un único objeto en todas las instrucciones asociadas a un determinado tipo de tarea. Así pues, por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos los podemos agrupar en un paquete.
+              .contenedor-dashed.p-4
+                .bloque-texto-a__texto.p-4
+                  p.mb-0 Los paquetes en PL/SQL tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta forma, se consigue obtener un único objeto en todas las instrucciones asociadas a un determinado tipo de tarea. Así pues, por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos los podemos agrupar en un paquete.
 
     .row.mb-5
-      .col-md-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img4-21.svg', alt='Imagen decorativa')
-      .col-md-8
+      .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Características")
             ol
