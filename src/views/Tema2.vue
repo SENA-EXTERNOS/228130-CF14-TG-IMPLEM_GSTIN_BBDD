@@ -8,10 +8,10 @@
       h1 Gestores de BD NoSQL
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='Código')
-      .col-md-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p Los sistemas de gestión de bases de datos (en inglés 
           em Database Management System
           |, abreviado DBMS) son un tipo de 
@@ -57,10 +57,10 @@
             em Big Data.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-3(data-aos="fade-right")
+      .col-lg-3.col-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img2-3.svg', alt='Gestores de BBDD')
-      .col-md-6(data-aos="fade-left")
+      .col-lg-6.col-sm-5(data-aos="fade-left")
         p
           b Listado de algunos sistemas gestores de base de datos NoSQL:
         ol

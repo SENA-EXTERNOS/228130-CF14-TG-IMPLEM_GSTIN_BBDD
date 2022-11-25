@@ -8,60 +8,60 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_146474" data-name="Grupo 146474" transform="translate(-1116 -1974)">
-    <g transform="matrix(1, 0, 0, 1, 1116, 1974)" filter="url(#Rectángulo_293857)">
+  <g id="Grupo_146474" data-name="Grupo 146474" transform="translate(-1116 -2001)">
+    <g transform="matrix(1, 0, 0, 1, 1116, 2001)" filter="url(#Rectángulo_293857)">
       <g id="Rectángulo_293857-2" data-name="Rectángulo 293857" transform="translate(9 6)" fill="#fff" stroke="#004b89" stroke-width="2" stroke-dasharray="10">
         <rect width="271" height="463" rx="4" stroke="none"/>
         <rect x="1" y="1" width="269" height="461" rx="3" fill="none"/>
       </g>
     </g>
-    <rect id="Rectángulo_293833" data-name="Rectángulo 293833" width="80" height="29.929" rx="5" transform="translate(1153 2164.607)" fill="#084a93" stroke="#084a93" stroke-miterlimit="10" stroke-width="1" opacity="0.35"/>
-    <rect id="Rectángulo_293834" data-name="Rectángulo 293834" width="80" height="29.929" rx="5" transform="translate(1153 2224.464)" fill="#084a93" stroke="#084a93" stroke-miterlimit="10" stroke-width="1" opacity="0.35"/>
-    <rect id="Rectángulo_293835" data-name="Rectángulo 293835" width="80" height="29.929" rx="5" transform="translate(1153 2284.322)" fill="#084a93" stroke="#084a93" stroke-miterlimit="10" stroke-width="1" opacity="0.35"/>
-    <path id="Rectángulo_293837" data-name="Rectángulo 293837" d="M5,0H65a5,5,0,0,1,5,5V29.929a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1298 2061.857)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <rect id="Rectángulo_293838" data-name="Rectángulo 293838" width="70" height="29.929" transform="translate(1298 2091.786)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Rectángulo_293839" data-name="Rectángulo 293839" d="M0,0H70a0,0,0,0,1,0,0V24.929a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(1298 2121.714)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Rectángulo_293840" data-name="Rectángulo 293840" d="M5,0H65a5,5,0,0,1,5,5V29.929a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1298 2181.572)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <rect id="Rectángulo_293841" data-name="Rectángulo 293841" width="70" height="29.929" transform="translate(1298 2211.5)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <rect id="Rectángulo_293842" data-name="Rectángulo 293842" width="70" height="29.929" transform="translate(1298 2241.429)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Rectángulo_293843" data-name="Rectángulo 293843" d="M0,0H70a0,0,0,0,1,0,0V24.929a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(1298 2271.357)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Rectángulo_293844" data-name="Rectángulo 293844" d="M5,0H65a5,5,0,0,1,5,5V29.929a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1298 2331.214)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <rect id="Rectángulo_293845" data-name="Rectángulo 293845" width="70" height="29.929" transform="translate(1298 2361.143)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Rectángulo_293846" data-name="Rectángulo 293846" d="M0,0H70a0,0,0,0,1,0,0V24.929a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(1298 2391.072)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Rectángulo_293847" data-name="Rectángulo 293847" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2088.045) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293848" data-name="Rectángulo 293848" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2117.973) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293849" data-name="Rectángulo 293849" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2147.902) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293850" data-name="Rectángulo 293850" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2207.759) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293851" data-name="Rectángulo 293851" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2237.688) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293852" data-name="Rectángulo 293852" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2267.616) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293853" data-name="Rectángulo 293853" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2297.545) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293854" data-name="Rectángulo 293854" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2357.402) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293855" data-name="Rectángulo 293855" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2387.33) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Rectángulo_293856" data-name="Rectángulo 293856" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2417.259) rotate(180)" fill="#ffb30b" opacity="0.35"/>
-    <path id="Trazado_192320" data-name="Trazado 192320" d="M-1933.921,127.148l-.485-8.334-4.164,5.582,1.91,1.13L-1965.5,256.957a.871.871,0,0,0,.32.944.357.357,0,0,0,.156.037c.21,0,.405-.2.475-.515l28.821-131.346Z" transform="translate(3198.025 1984.239)"/>
-    <path id="Trazado_192321" data-name="Trazado 192321" d="M-1932.888,246.275l-1.4-8.1-1.7,2.209-28.687-43.578a.4.4,0,0,0-.708-.007,1.032,1.032,0,0,0-.005,1.058l28.644,43.512-1.319,1.72Z" transform="translate(3198.025 1984.239)"/>
-    <path id="Trazado_192322" data-name="Trazado 192322" d="M-1934.344,394.572l-.451-8.338-1.691,1.532-28.107-72.454c-.138-.356-.443-.479-.683-.272a.975.975,0,0,0-.182,1.023l28.116,72.478-1.73,1.568Z" transform="translate(3198.025 1984.239)"/>
-    <text id="_000" data-name="000" transform="translate(1283.053 2067.913)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">000</tspan></text>
-    <text id="_001" data-name="001" transform="translate(1283.053 2097.841)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">001</tspan></text>
-    <text id="_000-2" data-name="000" transform="translate(1283.053 2127.77)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">000</tspan></text>
-    <text id="_872" data-name="872" transform="translate(1283.053 2187.627)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">872</tspan></text>
-    <text id="_873" data-name="873" transform="translate(1283.053 2217.556)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">873</tspan></text>
-    <text id="_874" data-name="874" transform="translate(1283.053 2247.484)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">874</tspan></text>
-    <text id="_872-2" data-name="872" transform="translate(1283.053 2337.27)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">872</tspan></text>
-    <text id="_872-3" data-name="872" transform="translate(1283.053 2277.413)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">872</tspan></text>
-    <text id="_998" data-name="998" transform="translate(1283.053 2367.198)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">998</tspan></text>
-    <text id="_999" data-name="999" transform="translate(1283.053 2397.127)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">999</tspan></text>
-    <text id="Values" transform="translate(1333.01 2021.64)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-23.875" y="0">Values</tspan></text>
-    <text id="_251-8976" data-name="251-8976" transform="translate(1332 2097.841)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.446" y="15">251-8976</tspan></text>
-    <text id="_251-1234" data-name="251-1234" transform="translate(1332 2217.556)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.446" y="15">251-1234</tspan></text>
-    <text id="_251-5030" data-name="251-5030" transform="translate(1332 2367.198)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.446" y="15">251-5030</tspan></text>
-    <text id="Keys" transform="translate(1193 2021.64)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-17.16" y="0">Keys</tspan></text>
-    <text id="John_Smith" data-name="John Smith" transform="translate(1193 2172.663)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-35.434" y="15">John Smith</tspan></text>
-    <text id="Lisa_Smith" data-name="Lisa Smith" transform="translate(1193.31 2232.52)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-32.744" y="15">Lisa Smith</tspan></text>
-    <text id="Sam_Doe" data-name="Sam Doe" transform="translate(1192.686 2292.377)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-28.12" y="15">Sam Doe</tspan></text>
-    <text id=":" transform="translate(1278.053 2157.698)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
-    <text id=":-2" data-name=":" transform="translate(1278.053 2307.341)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
-    <text id=":-3" data-name=":" transform="translate(1303.25 2157.698)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
-    <text id=":-4" data-name=":" transform="translate(1303.25 2307.341)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
+    <rect id="Rectángulo_293833" data-name="Rectángulo 293833" width="80" height="29.929" rx="5" transform="translate(1153 2191.607)" fill="#084a93" stroke="#084a93" stroke-miterlimit="10" stroke-width="1" opacity="0.35"/>
+    <rect id="Rectángulo_293834" data-name="Rectángulo 293834" width="80" height="29.929" rx="5" transform="translate(1153 2251.464)" fill="#084a93" stroke="#084a93" stroke-miterlimit="10" stroke-width="1" opacity="0.35"/>
+    <rect id="Rectángulo_293835" data-name="Rectángulo 293835" width="80" height="29.929" rx="5" transform="translate(1153 2311.322)" fill="#084a93" stroke="#084a93" stroke-miterlimit="10" stroke-width="1" opacity="0.35"/>
+    <path id="Rectángulo_293837" data-name="Rectángulo 293837" d="M5,0H65a5,5,0,0,1,5,5V29.929a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1298 2088.857)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectángulo_293838" data-name="Rectángulo 293838" width="70" height="29.929" transform="translate(1298 2118.786)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectángulo_293839" data-name="Rectángulo 293839" d="M0,0H70a0,0,0,0,1,0,0V24.929a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(1298 2148.714)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectángulo_293840" data-name="Rectángulo 293840" d="M5,0H65a5,5,0,0,1,5,5V29.929a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1298 2208.572)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectángulo_293841" data-name="Rectángulo 293841" width="70" height="29.929" transform="translate(1298 2238.5)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectángulo_293842" data-name="Rectángulo 293842" width="70" height="29.929" transform="translate(1298 2268.429)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectángulo_293843" data-name="Rectángulo 293843" d="M0,0H70a0,0,0,0,1,0,0V24.929a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(1298 2298.357)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectángulo_293844" data-name="Rectángulo 293844" d="M5,0H65a5,5,0,0,1,5,5V29.929a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(1298 2358.214)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectángulo_293845" data-name="Rectángulo 293845" width="70" height="29.929" transform="translate(1298 2388.143)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectángulo_293846" data-name="Rectángulo 293846" d="M0,0H70a0,0,0,0,1,0,0V24.929a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(1298 2418.072)" fill="#ecf2f9" stroke="#084a93" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Rectángulo_293847" data-name="Rectángulo 293847" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2115.045) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293848" data-name="Rectángulo 293848" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2144.973) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293849" data-name="Rectángulo 293849" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2174.902) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293850" data-name="Rectángulo 293850" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2234.759) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293851" data-name="Rectángulo 293851" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2264.688) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293852" data-name="Rectángulo 293852" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2294.616) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293853" data-name="Rectángulo 293853" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2324.545) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293854" data-name="Rectángulo 293854" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2384.402) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293855" data-name="Rectángulo 293855" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2414.33) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Rectángulo_293856" data-name="Rectángulo 293856" d="M0,0H30a5,5,0,0,1,5,5V17.446a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1297.553 2444.259) rotate(180)" fill="#ffb30b" opacity="0.35"/>
+    <path id="Trazado_192320" data-name="Trazado 192320" d="M-1933.921,127.148l-.485-8.334-4.164,5.582,1.91,1.13L-1965.5,256.957a.871.871,0,0,0,.32.944.357.357,0,0,0,.156.037c.21,0,.405-.2.475-.515l28.821-131.346Z" transform="translate(3198.025 2011.239)"/>
+    <path id="Trazado_192321" data-name="Trazado 192321" d="M-1932.888,246.275l-1.4-8.1-1.7,2.209-28.687-43.578a.4.4,0,0,0-.708-.007,1.032,1.032,0,0,0-.005,1.058l28.644,43.512-1.319,1.72Z" transform="translate(3198.025 2011.239)"/>
+    <path id="Trazado_192322" data-name="Trazado 192322" d="M-1934.344,394.572l-.451-8.338-1.691,1.532-28.107-72.454c-.138-.356-.443-.479-.683-.272a.975.975,0,0,0-.182,1.023l28.116,72.478-1.73,1.568Z" transform="translate(3198.025 2011.239)"/>
+    <text id="_000" data-name="000" transform="translate(1282.053 2094.913)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">000</tspan></text>
+    <text id="_001" data-name="001" transform="translate(1282.053 2124.841)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">001</tspan></text>
+    <text id="_000-2" data-name="000" transform="translate(1282.053 2154.77)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">000</tspan></text>
+    <text id="_872" data-name="872" transform="translate(1282.053 2214.627)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">872</tspan></text>
+    <text id="_873" data-name="873" transform="translate(1282.053 2244.556)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">873</tspan></text>
+    <text id="_874" data-name="874" transform="translate(1282.053 2274.484)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">874</tspan></text>
+    <text id="_872-2" data-name="872" transform="translate(1282.053 2364.27)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">872</tspan></text>
+    <text id="_872-3" data-name="872" transform="translate(1282.053 2304.413)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">872</tspan></text>
+    <text id="_998" data-name="998" transform="translate(1282.053 2394.198)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">998</tspan></text>
+    <text id="_999" data-name="999" transform="translate(1282.053 2424.127)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-11.792" y="15">999</tspan></text>
+    <text id="Values" transform="translate(1333.01 2048.64)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-23.875" y="0">Values</tspan></text>
+    <text id="_521-8976" data-name="521-8976" transform="translate(1333 2124.841)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.446" y="15">521-8976</tspan></text>
+    <text id="_521-1234" data-name="521-1234" transform="translate(1333 2244.556)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.446" y="15">521-1234</tspan></text>
+    <text id="_521-5030" data-name="521-5030" transform="translate(1333 2394.198)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-29.446" y="15">521-5030</tspan></text>
+    <text id="Keys" transform="translate(1193 2048.64)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-17.16" y="0">Keys</tspan></text>
+    <text id="John_Smith" data-name="John Smith" transform="translate(1192 2199.663)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-35.434" y="15">John Smith</tspan></text>
+    <text id="Lisa_Smith" data-name="Lisa Smith" transform="translate(1192.31 2259.52)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-32.744" y="15">Lisa Smith</tspan></text>
+    <text id="Sam_Doe" data-name="Sam Doe" transform="translate(1191.686 2319.377)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-28.12" y="15">Sam Doe</tspan></text>
+    <text id=":" transform="translate(1278.053 2184.698)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
+    <text id=":-2" data-name=":" transform="translate(1278.053 2334.341)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
+    <text id=":-3" data-name=":" transform="translate(1303.25 2184.698)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
+    <text id=":-4" data-name=":" transform="translate(1303.25 2334.341)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-1.695" y="15">:</tspan></text>
   </g>
 </svg>

@@ -56,9 +56,6 @@
 .cta
   color: $color-texto-anexo !important
 
-.tarjeta--gris
-  background-color: rgb(232, 232, 232) !important
-
 .bloque-texto-p
   background-color: #FFE4A9
   &:before
@@ -123,9 +120,15 @@
     position: absolute
     width: calc( 100% + 2rem )
     height: calc( 100% + 2rem )
-    border: dashed $color-primario
+    border: dashed #004B89
     top: -1rem
     left: -1rem
+
+.tarjeta--gris
+  background-color: #F6F6F6 !important
+
+.acordion__activo
+  background-color: rgb(232, 232, 232) !important
 
 .acordion__accion__btn--a
   background-color: #084A93
@@ -155,6 +158,22 @@
 .slyder-a__btn--atrs
   background-color: $color-acento-botones
 
+.slyder-a__bullets__item--active
+  background-color: #00DEFC !important
+  border-color: #00DEFC !important
+
+.slyder-a__bullets__item
+  background-color: #9DEEFE
+
+.tabla-a
+  background-color: $white !important
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #FCE3AC
+
+figcaption
+  background-color: $white !important
+
 .img-infografica-b__modal
   background-color: rgb(220, 238, 253) !important
   &__contenido
@@ -165,6 +184,13 @@
   i
     color: #12263F
 
-//.img-infografica-b__modal__contenido
-  //color: #12263F !important
-  //color: rgb(24, 44, 68) !important
+.titulo-sexto
+  border-left: 8px solid
+
+.acordion__accion__btn--b.h3.mb-0
+  background-color: #084A93
+  border-color: #084A93
+
+.acordion__accion__btn--b
+  i
+    color: $white

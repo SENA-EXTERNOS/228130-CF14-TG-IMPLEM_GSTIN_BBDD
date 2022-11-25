@@ -25,16 +25,16 @@
 
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo='b')
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Definición
             p.mb-3 Las bases de datos basadas en clave valor son un tipo de base de datos NoSQL sencillo, sirve para insertar y consultar datos. El concepto ‘clave valor’ significa que los datos se almacenan como una colección de pares; la clave identifica de forma única la colección y el valor contiene los datos y se ordenan según la clave.
             p.mb-0 Básicamente el almacenamiento de clave-valor determina el equilibrio óptimo entre la actualización de datos, la inserción y el rendimiento de recuperación.
-          .col-md-4
+          .col-md-4.col-sm-5
             figure
               img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='BBDD NoSQL')
             
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Ejemplo bases de datos basadas en clave valor
             p.mb-3 Suponer que se requiere almacenar datos de una persona, como su cédula, nombres, apellidos, correo y varios números de teléfono, y que, por ejemplo, necesita guardar los datos para las siguientes personas:
@@ -93,9 +93,9 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3-3.svg', alt='Clave-Valor')
 
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
-            h4 Más posibilidades
+            h4.mb-4 Más posibilidades
             p.mb-4 En la misma base de datos se necesita guardar datos de carros siendo la placa lo que permite identificar al vehículo; entonces, los datos a guardar serían:
             .row.justify-content-center.align-items-center
               .col-md-6
@@ -109,7 +109,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3-3.svg', alt='Clave-Valor')
 
-        .row
+        .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 La base de datos sería:
             
@@ -178,7 +178,7 @@
             em chats
             |.
 
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Listado de las bases de datos más reconocidas
             
@@ -226,7 +226,7 @@
       .tarjeta.tarjeta--gris.p-4(titulo="Formato XML")
         h4 Definición
         .row.justify-content-center
-          .col-md-10
+          .col-md-10.col-sm-10
             p XML, sigla en inglés de 
               em extensible markup language
               |, traducido como “lenguaje de marcado extensible” o “lenguaje de marcas extensible”, es un metalenguaje que permite definir lenguajes de marcas, desarrollado por el 
@@ -235,7 +235,7 @@
 
             h4 En base de datos relacional
             p Si se quisiera modelar esto en una base de datos relacional, seguramente se definiría una tabla para personas (con atributos nombre y correo) y una tabla para los correos, con dos relaciones a la tabla personal: una para el remitente y otra para el destino.
-          .col-md-2
+          .col-md-2.col-sm-2
             figure
               img(src='@/assets/curso/temas/tema3/img3-7.svg', alt='XML')
 
@@ -254,7 +254,7 @@
       .tarjeta.tarjeta--gris.p-4(titulo="Formato JSON")
         h4 Definición
         .row.justify-content-center
-          .col-md-10
+          .col-md-10.col-sm-10
             p JSON (acrónimo de 
               em JavaScript object notation
               |, «notación de objeto de 
@@ -296,7 +296,7 @@
                 |#[b Objetos:]
                 |son colecciones no ordenadas de pares de la forma &lt;nombre&gt;:&lt;valor&gt;, donde el nombre debe ser separado por comas y puestos entre llaves ({}).
 
-          .col-md-2
+          .col-md-2.col-sm-2
             figure
               img(src='@/assets/curso/temas/tema3/img3-8.svg', alt='JSON')
 
@@ -305,10 +305,10 @@
       |Bases de datos no relacionales no documentadas
 
     .row.mb-5
-      .col-md-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.svg', alt='Monitor y persona')
-      .col-md-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p Las bases de datos no relacionales documentales se caracterizan por el concepto de guardar la información con el modelo de clave/valor. Es por eso por lo que los documentos más comunes son en formato JSON; la diferencia fundamental de este tipo de bases de datos radica en que un documento se almacena en una clave en la BD correspondiente. Esta definición puede parecer abstracta, se complementa mejor su concepto por medio de un ejemplo.
 
     .tarjeta.tarjeta--azul.p-4.mb-5
@@ -398,10 +398,10 @@
           figcaption Nota: adaptado de Macarrón, (2021).
           
     .row.mb-4
-      .col-md-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img3-16.svg', alt='Código')
-      .col-md-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p Este es un tipo de base de datos muy diferente a los anteriores; maneja la información de una manera particular, empleando grafos y teoría de grafos. Cada nodo solo debe contener una sola columna, entonces se deben normalizar completamente las bases de datos y solo aplica para grafos de tipo binario; cada nodo solo se puede relacionar con otros dos nodos como máximo. Las ventajas de este tipo de bases de datos van enfocadas a la integridad de los datos y la optimización de consultas.
         p A continuación, un listado de las bases de datos más reconocidas:
 

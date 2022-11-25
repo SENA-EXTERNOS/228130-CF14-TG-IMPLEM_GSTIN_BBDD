@@ -13,7 +13,17 @@
           .col-lg-7.order-lg-first.order-sm-last
             .contenedor-dashed.p-3
               .bloque-texto-a__texto.p-4
-                p.mb-0 Una función almacenada es un conjunto de instrucciones que realizan en determina operación y devuelven un único valor. Se presenta a continuación sus características y estructura.
+                h3 Construcción de base de datos NoSQL
+                p.mb-0 Operaciones básicas: son aquellas que se implementan en la construcción de una base de datos NoSQL, para la realización y explicación de cada uno de los diferentes comandos se trabajará con una base de datos no relacional como lo es “MongoDB”. Algunas de las operaciones básicas más esenciales son insertar un nuevo documento (
+                    em create
+                    |), obtener un documento (
+                    em read
+                    |), actualizar un documento existente (
+                    em update
+                    |) y eliminar un documento (
+                    em delete
+                    |); siendo llamadas operaciones 
+                    em CRUD.
           .col-lg-5.mb-4.mb-lg-3.p-4
             img(src='@/assets/curso/temas/tema5/img5-1.svg', alt='Servidor')
   
@@ -21,7 +31,9 @@
       i.fas.fa-square.cac.me-3
       |Operaciones CRUD
 
-    p.mb-5(data-aos="fade-left") En una base de datos de tipo NoSQL se realizan también las operaciones CRUD como lo son: guardar, modificar, eliminar y consultar documentos de la base de datos. A continuación, se describen cada una de ellas:
+    p.mb-5(data-aos="fade-left") En una base de datos de tipo NoSQL se realizan también las operaciones 
+      em CRUD 
+      |como lo son: guardar, modificar, eliminar y consultar documentos de la base de datos. A continuación, se describen cada una de ellas:
 
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="zoom-in")
@@ -118,17 +130,18 @@
                 b
                   em db.collection_name.deleteMany()
                 br
-                |Este método se implementa para la eliminación de todos los documentos dentro de la colección, en caso de aplicar un filtro solo eliminara los documentos que coincidan con la condición.
+                |Este método se implementa para la eliminación de todos los documentos dentro de la colección, en caso de aplicar un filtro solo eliminará los documentos que coincidan con la condición.
 
-    .col-lg-10.mx-auto.mb-5
+    .col-lg-10.mx-auto.mb-5(data-aos="flip-up")
       .tarjeta.color-primario.img2-4.p-4
-        .row.justify-content-around.align-items-center
+        .row.justify-content-center.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema5/img5-3.svg")
+            figure
+              img(src="@/assets/curso/temas/tema5/img5-3.svg" alt="CRUD")
           .col-auto
             .row.justify-content-between.align-items-center
               .col-auto.mb-3.mb-sm-0
-                p.text-small Para profundizar un poco más en las operaciones CRUD se le invita revisar el documento anexo.
+                p.mb-0.text-small Para profundizar un poco más en las operaciones CRUD se le invita revisar el documento anexo.
               .col.mb-3.mb-sm-0
                 a.boton.color-acento-contenido(:href="obtenerLink('downloads/Anexo2.docx')" target="_blank" type="application/pdf")
                   span(style='color:#12263F !important') Descargar 
@@ -206,14 +219,14 @@
       em scripts
 
     .row.align-items-center.mb-5
-      .col-md-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-8.svg', alt='Código')
-      .col-md-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 El comando de validación verifica la corrección de los datos e índices de una colección y devuelve los resultados. Además, este comando también puede encontrar inconsistencias en la colección y corregirlas si es posible.
 
-    .row.mb-5
-      .col-md-9(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-md-9.col-sm-10(data-aos="fade-right")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Las inconsistencias de un índice incluyen:")
             ol
@@ -285,7 +298,7 @@
                 .titulo-sexto.color-acento-botones.cfa5(data-aos="fade-left")
                   p.mb-0
                     em db.runCommand( { validate: "myCollection", metadata: true } )
-      .col-md-3(data-aos="fade-left")
+      .col-md-3.col-sm-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/img5-9.png', alt='Código')
 
@@ -302,10 +315,10 @@
     p.mb-5(data-aos="fade-right") Principales herramientas de depuración de datos:
 
     .row.justify-content-center.mb-5
-      .col-md-2(data-aos="fade-right")
+      .col-lg-2.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-12.svg', alt='Código binario')
-      .col-md-8(data-aos="fade-left")
+      .col-lg-8.col-sm-10(data-aos="fade-left")
         ol
           li.mb-3
             i.fas.fa-square.cac.me-3
@@ -338,10 +351,10 @@
       |Herramientas de versionamiento de bases de datos
 
     .row.align-items-center.mb-5
-      .col-md-1(data-aos="fade-right")
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/img5-13.svg', alt='Código')
-      .col-md-11(data-aos="fade-left")
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 Su objetivo principal es mantener el control de todos los cambios realizados sobre la base de datos, almacenando la data de los mismos como lo es; autor, fecha, cambio, etc., relacionando dichos cambios a los desarrollos realizados sobre la aplicación e integrándolos con el propio control de versiones del código fuente.
 
     .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
@@ -371,20 +384,24 @@
             em liquibase 
             |sepa qué cambios existen en tus 
             em changelogs
-            |, los cruza con su tabla interna llamada DATABASECHANGELOG, la principal tabla principal de versiones/cambios que se crea durante la primera ejecución.
+            |, los cruza con su tabla interna llamada 
+            em DATABASECHANGELOG
+            |, la principal tabla principal de versiones/cambios que se crea durante la primera ejecución.
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
             |Aplicación de cambios; cuando se tiene claridad en los cambios a realizar, se debe ejecutar y actualizar la tabla de versiones.
 
-    .col-lg-10.mx-auto.mb-5
+    .col-lg-10.mx-auto.mb-5(data-aos="flip-up")
       .tarjeta.color-primario.img2-4.p-4
         .row.justify-content-around.align-items-center
-          .col-md-1
+          .col-md-1.col-sm-2
             img(src="@/assets/curso/temas/tema5/img5-15.svg" alt="Ruedas dentadas")
-          .col-md-9
+          .col-md-9.col-sm-10
             h4.mb-1 Uso y configuración
-            p.text-small ¿Qué es el changelog?: es un fichero que contiene todos los cambios que se requieren aplicar en la base de datos. Estos ficheros pueden ser XML, YAML, JSON o SQL; para conocer algunos ejemplos de este puede consultar el documento anexo.
+            p.text-small ¿Qué es el 
+              em changelog
+              |?: es un fichero que contiene todos los cambios que se requieren aplicar en la base de datos. Estos ficheros pueden ser XML, YAML, JSON o SQL; para conocer algunos ejemplos de este puede consultar el documento anexo.
           .col-md-2
             a.boton.color-acento-contenido(:href="obtenerLink('downloads/Anexo3.docx')" target="_blank" type="application/pdf")
               span(style='color:#12263F !important') Descargar 
@@ -396,10 +413,10 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    .row.justify-content-center
-      .col-md-8(data-aos="flip-up")
-        .cajon.color-acento-contenido.p-4.mb-4
-          p Tenga en cuenta que el componente formativo dispone de más recursos que se ubican en este, para ello diríjase al menú principal en donde encontrará entre otros, la síntesis, una actividad didáctica y el material complementario.
+    .row.justify-content-center.align-items-center
+      .col-lg-8(data-aos="flip-up")
+        .cajon.color-acento-contenido.p-4.mb-4(style="background-color: rgba(255, 179, 11, .15)")
+          p.mb-0 Tenga en cuenta que el componente formativo dispone de más recursos que se ubican en este, para ello diríjase al menú principal en donde encontrará entre otros, la síntesis, una actividad didáctica y el material complementario.
 
 </template>
 
