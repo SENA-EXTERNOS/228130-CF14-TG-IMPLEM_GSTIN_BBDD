@@ -8,10 +8,10 @@
       h1 Bases de datos NoSQL (no relacional)
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-sm-2
+      .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-1.svg', alt='Datos')
-      .col-lg-11.col-sm-10
+      .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 El término NoSQL tiene un significado particular, 
           em not only SQL
           |. Generalmente estos se implementan en la agrupación de bases de datos diferentes a las tradicionales. El avance tecnológico a nivel mundial y las temáticas sobre 
@@ -25,13 +25,13 @@
             .bloque-texto-a__texto.p-4
               p.mb-0 Los nuevos requerimientos a nivel internacional en la actualidad son: una disponibilidad total, tolerancia a fallos, gran capacidad de almacenamiento para un gran volumen de información, buen desempeño con futuro crecimiento y escalabilidad horizontal, manejo de grandes volúmenes de datos estructurados y no estructurados, implementación de nuevas metodologías de consultas, libertad para manejar nuevos esquemas y datos con control total.
       
-    p.mb-5 Debido a que las bases de datos relacionales no respondían de forma adecuada a la necesidad para la exigencia en tiempos de demanda, nacieron las bases de datos NoSQL. A continuación, se presentan algunos puntos importantes a tener en cuenta.
+    p.mb-5(data-aos="fade-down") Debido a que las bases de datos relacionales no respondían de forma adecuada a la necesidad para la exigencia en tiempos de demanda, nacieron las bases de datos NoSQL. A continuación, se presentan algunos puntos importantes a tener en cuenta.
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-sm-4
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Estantes')
-      .col-lg-8.col-sm-8
+      .col-lg-8(data-aos="zoom-in")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Definición de términos relevantes")
             p.mb-3

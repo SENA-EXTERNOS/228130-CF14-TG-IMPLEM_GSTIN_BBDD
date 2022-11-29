@@ -32,7 +32,7 @@
           em BigQuery 
           |y no deben construirse; estos son llamados procedimientos del sistema.
 
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Características")
         .row.justify-content-center
           .col-md-7.mb-4.mb-md-0
@@ -201,7 +201,7 @@
         p.mb-0 Los disparadores implementados en MongoDB son una pieza fundamental donde permite ejecutar la lógica por parte del servidor del cliente después de que ocurra un evento en la base de datos, por ejemplo, las actualizaciones en las bases de datos como puede ser: la eliminación, inserción y modificación de datos. Los disparadores también llamados activadores tiene el poder de actualizar la información después de diferentes cambios como es la inserción de nuevos datos en las bases.
 
     .row.mb-5
-      .col-md-9.col-sm-8(data-aos="fade-left")
+      .col-md-9(data-aos="fade-left")
         TabsA.color-primario
           .tarjeta.tarjeta--gris.p-4(titulo="Características")
             p MongoDB 
@@ -273,7 +273,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema4/img4-19.svg', alt='Ejemplo de disparador')
                   figcaption Nota: adaptada de MongoDB, (s/f).
-      .col-md-3.col-sm-4.order-sm-first.order-lg-last
+      .col-md-3.mb-sm-4.order-sm-first.order-lg-last
         figure
           img(src='@/assets/curso/temas/tema4/img4-16.png', alt='Diseño BBDD')
 
@@ -291,10 +291,10 @@
                   p.mb-0 Los paquetes en PL/SQL tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta forma, se consigue obtener un único objeto en todas las instrucciones asociadas a un determinado tipo de tarea. Así pues, por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos los podemos agrupar en un paquete.
 
     .row.mb-5
-      .col-lg-4.col-sm-3(data-aos="fade-right")
+      .col-lg-4.mb-sm-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img4-21.svg', alt='Imagen decorativa')
-      .col-lg-8.col-sm-9(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Características")
             ol

@@ -226,7 +226,7 @@
         p.mb-0 El comando de validación verifica la corrección de los datos e índices de una colección y devuelve los resultados. Además, este comando también puede encontrar inconsistencias en la colección y corregirlas si es posible.
 
     .row.justify-content-center.mb-5
-      .col-md-9.col-sm-10(data-aos="fade-right")
+      .col-md-9(data-aos="fade-right")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Las inconsistencias de un índice incluyen:")
             ol
@@ -298,7 +298,7 @@
                 .titulo-sexto.color-acento-botones.cfa5(data-aos="fade-left")
                   p.mb-0
                     em db.runCommand( { validate: "myCollection", metadata: true } )
-      .col-md-3.col-sm-2(data-aos="fade-left")
+      .col-md-3.mb-sm-4.order-sm-first.order-lg-last(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/img5-9.png', alt='Código')
 
@@ -411,7 +411,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/h-iS3eNZGvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="flip-up")

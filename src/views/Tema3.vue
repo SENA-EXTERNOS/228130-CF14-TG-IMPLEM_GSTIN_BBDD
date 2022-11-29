@@ -311,7 +311,7 @@
       .col-lg-11.col-sm-10(data-aos="fade-left")
         p Las bases de datos no relacionales documentales se caracterizan por el concepto de guardar la información con el modelo de clave/valor. Es por eso por lo que los documentos más comunes son en formato JSON; la diferencia fundamental de este tipo de bases de datos radica en que un documento se almacena en una clave en la BD correspondiente. Esta definición puede parecer abstracta, se complementa mejor su concepto por medio de un ejemplo.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="zoom-in")
       SlyderA(tipo='b')
         .row
           .col-md-8.mb-4.mb-md-0
