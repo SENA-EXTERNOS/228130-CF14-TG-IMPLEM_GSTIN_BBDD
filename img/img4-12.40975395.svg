@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="125" viewBox="0 0 562 125">
+  <g id="Grupo_146481" data-name="Grupo 146481" transform="translate(-378 -4170.21)">
+    <g id="Grupo_131871" data-name="Grupo 131871" transform="translate(105 -2668.79)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="562" height="125" rx="10" transform="translate(273 6839)"/>
+      <text id="_db.system.js.save__id:_sum_..._value:_function_x_y_return_x_y_db.eval_return_sum_2_3_5" data-name="&gt; db.system.js.save({_id: &quot;sum&quot;,
+...                               value: function (x, y) { return x + y; }});
+&gt; db.eval(&quot;return sum(2, 3);&quot;);
+5" transform="translate(297 6863)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">&gt; db.system.js.save({_id: </tspan><tspan y="17" fill="#00defc">&quot;sum&quot;</tspan><tspan y="17">,</tspan><tspan x="0" y="36.2" xml:space="preserve">...                               value: function (x, y) { </tspan><tspan y="36.2" fill="#ffb30b">return</tspan><tspan y="36.2" xml:space="preserve"> x + y; }});</tspan><tspan x="0" y="55.4">&gt; db.</tspan><tspan y="55.4" fill="#b9ddfc">eval</tspan><tspan y="55.4">(</tspan><tspan y="55.4" fill="#00defc">&quot;return sum(2, 3);&quot;</tspan><tspan y="55.4">);</tspan><tspan x="0" y="74.6">5</tspan></text>
+    </g>
+  </g>
+</svg>

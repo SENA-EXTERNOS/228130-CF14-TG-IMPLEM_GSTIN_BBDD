@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="201" viewBox="0 0 562 201">
+  <g id="Grupo_146488" data-name="Grupo 146488" transform="translate(-416 -7391.333)">
+    <g id="Grupo_131867" data-name="Grupo 131867" transform="translate(143 552.333)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="562" height="201" rx="10" transform="translate(273 6839)"/>
+      <text id="_operationType_:_update_updateDescription_:_updateFields_:_status_:_InProgress_" data-name="{
+  &quot;operationType&quot;: &quot;update&quot;,
+  &quot;updateDescription&quot;: {
+    &quot;updateFields&quot;: {
+      &quot;status&quot;: &quot;InProgress&quot;
+    }
+  }
+}" transform="translate(297 6863)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">{</tspan><tspan x="0" y="36.2" xml:space="preserve">  </tspan><tspan y="36.2" fill="#00defc">&quot;operationType&quot;</tspan><tspan y="36.2">: &quot;update&quot;,</tspan><tspan x="0" y="55.4" xml:space="preserve">  </tspan><tspan y="55.4" fill="#00defc">&quot;updateDescription&quot;</tspan><tspan y="55.4">: {</tspan><tspan fill="#00defc"><tspan x="0" y="74.6" xml:space="preserve">    &quot;updateFields&quot;</tspan><tspan y="74.6" fill="#fff">: {</tspan><tspan x="0" y="93.8" xml:space="preserve">      &quot;status&quot;</tspan><tspan y="93.8" fill="#fff">: &quot;InProgress&quot;</tspan></tspan><tspan x="0" y="113" xml:space="preserve">    }</tspan><tspan x="0" y="132.2" xml:space="preserve">  }</tspan><tspan x="0" y="151.4">}</tspan></text>
+    </g>
+  </g>
+</svg>

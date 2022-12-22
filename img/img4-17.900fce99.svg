@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="336" viewBox="0 0 562 336">
+  <g id="Grupo_146486" data-name="Grupo 146486" transform="translate(-416 -6385.333)">
+    <g id="Grupo_131863" data-name="Grupo 131863" transform="translate(143 -453.667)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="562" height="336" rx="10" transform="translate(273 6839)"/>
+      <text id="__id_:_Object_operationType_:_string_fullDocument_:_document_fullDocumentBeforeChange_:_document_ns_:_db_:_string_coll_:_string_documentKey_:__id_:_string_updateDescription_:_document_" data-name="{
+  &quot;_id&quot;: &lt;Object&gt;,
+  &quot;operationType&quot;: &lt;string&gt;,
+  &quot;fullDocument&quot;: &lt;document&gt;,
+  &quot;fullDocumentBeforeChange&quot;: &lt;document&gt;,
+  &quot;ns&quot;: {
+    &quot;db&quot;: &lt;string&gt;,
+    &quot;coll&quot;: &lt;string&gt;
+  },
+  &quot;documentKey&quot;: {
+    &quot;_id&quot;: &lt;string&gt;
+  },
+  &quot;updateDescription&quot;: &lt;document&gt; " transform="translate(297 6863)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">{</tspan><tspan x="0" y="36.2" xml:space="preserve">  </tspan><tspan y="36.2" fill="#00defc">&quot;_id&quot;</tspan><tspan y="36.2">: &lt;Object&gt;,</tspan><tspan x="0" y="55.4" xml:space="preserve">  </tspan><tspan y="55.4" fill="#00defc">&quot;operationType&quot;</tspan><tspan y="55.4">: &lt;string&gt;,</tspan><tspan x="0" y="74.6" xml:space="preserve">  </tspan><tspan y="74.6" fill="#00defc">&quot;fullDocument&quot;</tspan><tspan y="74.6">: &lt;document&gt;,</tspan><tspan x="0" y="93.8" xml:space="preserve">  </tspan><tspan y="93.8" fill="#00defc">&quot;fullDocumentBeforeChange&quot;</tspan><tspan y="93.8">: &lt;document&gt;,</tspan><tspan x="0" y="113" xml:space="preserve">  </tspan><tspan y="113" fill="#00defc">&quot;ns&quot;</tspan><tspan y="113">: {</tspan><tspan x="0" y="132.2" xml:space="preserve">    </tspan><tspan y="132.2" fill="#00defc">&quot;db&quot;</tspan><tspan y="132.2">: &lt;string&gt;,</tspan><tspan x="0" y="151.4" xml:space="preserve">    </tspan><tspan y="151.4" fill="#00defc">&quot;coll&quot;</tspan><tspan y="151.4">: &lt;string&gt;</tspan><tspan x="0" y="170.6" xml:space="preserve">  },</tspan><tspan x="0" y="189.8" xml:space="preserve">  </tspan><tspan y="189.8" fill="#00defc">&quot;documentKey&quot;</tspan><tspan y="189.8">: {</tspan><tspan x="0" y="209" xml:space="preserve">    </tspan><tspan y="209" fill="#00defc">&quot;_id&quot;</tspan><tspan y="209">: &lt;string&gt;</tspan><tspan x="0" y="228.2" xml:space="preserve">  },</tspan><tspan x="0" y="247.4" xml:space="preserve">  </tspan><tspan y="247.4" fill="#00defc">&quot;updateDescription&quot;</tspan><tspan y="247.4">: &lt;document&gt; ,</tspan><tspan x="0" y="266.6" xml:space="preserve">  </tspan><tspan y="266.6" fill="#00defc">&quot;clusterTime&quot;</tspan><tspan y="266.6">: &lt;Timestamp&gt;</tspan><tspan x="0" y="285.8">}</tspan></text>
+    </g>
+  </g>
+</svg>

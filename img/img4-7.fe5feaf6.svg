@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="586" height="241" viewBox="0 0 586 241">
+  <g id="Grupo_146477" data-name="Grupo 146477" transform="translate(-319 -2651)">
+    <g id="Grupo_146412" data-name="Grupo 146412" transform="translate(-43 -161)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="586" height="241" transform="translate(362 2812)" fill="#00defc" opacity="0.15"/>
+      <text id="Create_or_replace_procedure:_midataset.crear_consulta_name_string_BEGIN_DECLARE_id_STRING_SET_id_GENERATE_UUID_INSERT_INTO_midataset.customers_customer_id_name_VALUES_id_name_SELECT_FORMAT_Created_customer_s_s_id_name_END" data-name="Create or replace procedure: midataset.crear_consulta(name string)
+
+BEGIN
+DECLARE id STRING;
+SET id = GENERATE_UUID();
+INSERT INTO midataset.customers (customer_id, name)
+  VALUES(id, name);
+SELECT FORMAT(&quot;Created customer %s (%s)&quot;, id, name);
+END" transform="translate(386 2827)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="17">Create or replace procedure: midataset.crear_consulta(name string)</tspan><tspan x="0" y="41"></tspan><tspan x="0" y="65">BEGIN</tspan><tspan x="0" y="89">DECLARE id STRING;</tspan><tspan x="0" y="113">SET id = GENERATE_UUID();</tspan><tspan x="0" y="137">INSERT INTO midataset.customers (customer_id, name)</tspan><tspan x="0" y="161" xml:space="preserve">  VALUES(id, name);</tspan><tspan x="0" y="185">SELECT FORMAT(&quot;Created customer %s (%s)&quot;, id, name);</tspan><tspan x="0" y="209">END</tspan></text>
+      <rect id="Rectángulo_293786" data-name="Rectángulo 293786" width="8" height="241" transform="translate(362 2812)" fill="#00defc"/>
+    </g>
+  </g>
+</svg>

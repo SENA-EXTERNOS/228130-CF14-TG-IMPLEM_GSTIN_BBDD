@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="144" viewBox="0 0 562 144">
+  <g id="Grupo_146487" data-name="Grupo 146487" transform="translate(-416 -6960.333)">
+    <g id="Grupo_131865" data-name="Grupo 131865" transform="translate(143 121.333)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="562" height="144" rx="10" transform="translate(273 6839)"/>
+      <text id="__id_:_0_operationType_:_1_updateDescription.updateFields.status_:_1_" data-name="{
+  &quot;_id&quot;: 0,
+  &quot;operationType&quot;: 1,
+  &quot;updateDescription.updateFields.status&quot;: 1
+}" transform="translate(297 6863)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">{</tspan><tspan x="0" y="36.2" xml:space="preserve">  </tspan><tspan y="36.2" fill="#00defc">&quot;_id&quot;</tspan><tspan y="36.2">: 0,</tspan><tspan x="0" y="55.4" xml:space="preserve">  </tspan><tspan y="55.4" fill="#00defc">&quot;operationType&quot;</tspan><tspan y="55.4">: 1,</tspan><tspan x="0" y="74.6" xml:space="preserve">  </tspan><tspan y="74.6" fill="#00defc">&quot;updateDescription.updateFields.status&quot;</tspan><tspan y="74.6">: 1</tspan><tspan x="0" y="93.8">}</tspan></text>
+    </g>
+  </g>
+</svg>

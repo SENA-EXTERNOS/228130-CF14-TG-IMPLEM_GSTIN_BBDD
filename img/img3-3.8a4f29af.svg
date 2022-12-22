@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="402" viewBox="0 0 345 402">
+  <g id="Grupo_146480" data-name="Grupo 146480" transform="translate(-1020 -1568)">
+    <rect id="Rectángulo_293698" data-name="Rectángulo 293698" width="345" height="402" rx="20" transform="translate(1020 1568)" fill="#fff"/>
+    <path id="Trazado_192347" data-name="Trazado 192347" d="M-1083.234-313.044h-69.637v.844l-29.156,29.156,29.156,29.156v.844h69.637l30-30Z" transform="translate(2393.475 2171.231)" fill="#ffb30b" opacity="0.35"/>
+    <text id="Valor" transform="translate(1273.001 1877.863)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.074" y="17">Valor</tspan></text>
+    <path id="Trazado_192348" data-name="Trazado 192348" d="M-1182.028-283.044l-12-6v4.5h-27.5a1.5,1.5,0,0,0-1.5,1.5,1.5,1.5,0,0,0,1.5,1.5h27.5v4.5Z" transform="translate(2393.475 2171.231)" fill="#084a93" style="isolation: isolate"/>
+    <rect id="Rectángulo_293860" data-name="Rectángulo 293860" width="127.949" height="60" rx="10" transform="translate(1044.001 1858.187)" fill="#084a93" opacity="0.35"/>
+    <text id="Clave" transform="translate(1107 1877.863)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-20.125" y="17">Clave</tspan></text>
+    <path id="Trazado_192349" data-name="Trazado 192349" d="M-1083.234-392.44h-69.637v.844l-29.156,29.156,29.156,29.156v.844h69.637l30-30Z" transform="translate(2393.027 2171.231)" fill="#ffb30b" opacity="0.35"/>
+    <text id="Valor-2" data-name="Valor" transform="translate(1273.001 1798.467)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.074" y="17">Valor</tspan></text>
+    <path id="Trazado_192350" data-name="Trazado 192350" d="M-1182.028-362.439l-12-6v4.5h-27.5a1.5,1.5,0,0,0-1.5,1.5,1.5,1.5,0,0,0,1.5,1.5h27.5v4.5Z" transform="translate(2393.475 2171.231)" fill="#084a93" style="isolation: isolate"/>
+    <rect id="Rectángulo_293861" data-name="Rectángulo 293861" width="127.949" height="60" rx="10" transform="translate(1044.001 1778.792)" fill="#084a93" opacity="0.15"/>
+    <text id="Clave-2" data-name="Clave" transform="translate(1107 1798.467)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-20.125" y="17">Clave</tspan></text>
+    <path id="Trazado_192351" data-name="Trazado 192351" d="M-1083.234-471.835h-69.637v.844l-29.156,29.156,29.156,29.156v.844h69.637l30-30Z" transform="translate(2393.475 2171.231)" fill="#ffb30b" opacity="0.35"/>
+    <text id="Valor-3" data-name="Valor" transform="translate(1273.001 1719.072)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.074" y="17">Valor</tspan></text>
+    <path id="Trazado_192352" data-name="Trazado 192352" d="M-1182.028-441.835l-12-6v4.5h-27.5a1.5,1.5,0,0,0-1.5,1.5,1.5,1.5,0,0,0,1.5,1.5h27.5v4.5Z" transform="translate(2393.475 2171.231)" fill="#084a93" style="isolation: isolate"/>
+    <rect id="Rectángulo_293862" data-name="Rectángulo 293862" width="127.949" height="60" rx="10" transform="translate(1044 1699.396)" fill="#084a93" opacity="0.35"/>
+    <text id="Clave-3" data-name="Clave" transform="translate(1107 1719.072)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-20.125" y="17">Clave</tspan></text>
+    <path id="Trazado_192353" data-name="Trazado 192353" d="M-1083.234-551.231h-69.637v.844l-29.156,29.156,29.156,29.156v.844h69.637l30-30Z" transform="translate(2393.475 2171.231)" fill="#ffb30b" opacity="0.35"/>
+    <text id="Valor-4" data-name="Valor" transform="translate(1273.001 1639.676)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.074" y="17">Valor</tspan></text>
+    <path id="Trazado_192354" data-name="Trazado 192354" d="M-1182.028-521.231l-12-6v4.5h-27.5a1.5,1.5,0,0,0-1.5,1.5,1.5,1.5,0,0,0,1.5,1.5h27.5v4.5Z" transform="translate(2393.475 2171.231)" fill="#084a93" style="isolation: isolate"/>
+    <rect id="Rectángulo_293863" data-name="Rectángulo 293863" width="127.949" height="60" rx="10" transform="translate(1044.001 1620)" fill="#084a93" opacity="0.15"/>
+    <text id="Clave-4" data-name="Clave" transform="translate(1107 1639.676)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-20.125" y="17">Clave</tspan></text>
+  </g>
+</svg>

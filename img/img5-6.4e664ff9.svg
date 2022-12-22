@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439" height="359" viewBox="0 0 439 359">
+  <g id="Grupo_146498" data-name="Grupo 146498" transform="translate(-743 -5829)">
+    <g id="Grupo_131907" data-name="Grupo 131907" transform="translate(743 5829)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="439" height="359" fill="#ffe9ba"/>
+      <text id="_show_dbs_admin_0.000GB_config_0.000GB_local_0.000GB_mongodb_test_0.000GB_use_mongodb_test_switched_to_db_mongodb_test_db.orders_detail.createIndex_order_date_:_1_createdCollection" data-name="&gt; show dbs
+admin                  0.000GB
+config                  0.000GB
+local                     0.000GB
+mongodb_test    0.000GB
+&gt; use mongodb_test
+switched to db mongodb_test
+db.orders_detail.createIndex( {  &quot;order_date&quot;: 1 } )
+{
+    &quot;createdCollection" transform="translate(24 15)" fill="#182c44" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="15">&gt; show dbs</tspan><tspan x="0" y="39" xml:space="preserve">admin                  0.000GB</tspan><tspan x="0" y="63" xml:space="preserve">config                  0.000GB</tspan><tspan x="0" y="87" xml:space="preserve">local                     0.000GB</tspan><tspan x="0" y="111" xml:space="preserve">mongodb_test    0.000GB</tspan><tspan x="0" y="135">&gt; use mongodb_test</tspan><tspan x="0" y="159">switched to db mongodb_test</tspan><tspan x="0" y="183" xml:space="preserve">db.orders_detail.createIndex( {  &quot;order_date&quot;: 1 } )</tspan><tspan x="0" y="207">{</tspan><tspan x="0" y="231" xml:space="preserve">    &quot;createdCollectionAutomatically&quot;: false,</tspan><tspan x="0" y="255" xml:space="preserve">    &quot;numIndexesBefore&quot;: 1,</tspan><tspan x="0" y="279" xml:space="preserve">    &quot;numIndexesAfter&quot;: 2,</tspan><tspan x="0" y="303" xml:space="preserve">    &quot;ok&quot;: 1</tspan><tspan x="0" y="327">}</tspan></text>
+      <rect id="Rectángulo_293787" data-name="Rectángulo 293787" width="8" height="359" fill="#ffb30b"/>
+    </g>
+  </g>
+</svg>
