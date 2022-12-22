@@ -36,7 +36,7 @@
       |como lo son: guardar, modificar, eliminar y consultar documentos de la base de datos. A continuación, se describen cada una de ellas:
 
     .row.justify-content-center.mb-5
-      .col-md-8(data-aos="zoom-in")
+      .col-md-8.col-sm-9(data-aos="zoom-in")
         ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
@@ -154,7 +154,7 @@
     p.mb-5(data-aos="fade-right") Se abordará ahora el concepto de índices en MongoDB, así como su sintaxis y un ejemplo de este.
 
     .row.justify-content-center.mb-5
-      .col-md-10(data-aos="zoom-in")
+      .col-md-10.col-sm-9(data-aos="zoom-in")
         ImagenInfograficaB.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure
