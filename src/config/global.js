@@ -112,32 +112,32 @@ export default {
   },
   complementario: [
     {
-      tema: 'Arquitectura de la base de datos MongoDB',
+      tema: 'CRUD en MongoDB',
       referencia:
-        'Díaz, A. (2019). <em>Introducción a las bases de datos NoSQL: comparativa MongoDB vs Cassandra.</em> [Trabajo de grado, Universidad de Álcala Escuela técnica superior].',
+        'Díaz, A. (2019). <em>Introducción a las bases de datos NoSQL: comparativa MongoDB vs Cassandra.</em> [Trabajo de grado, Universidad de Álcala Escuela técnica superior]. https://ebuah.uah.e',
       tipo: 'Trabajo de grado',
       link:
         'https://ebuah.uah.es/dspace/bitstream/handle/10017/38612/TFG_Diaz_Moreno_2019.pdf?sequence=1&isAllowed=y',
     },
     {
-      tema: 'Índices en MongoDB',
+      tema: 'CRUD en MongoDB',
       referencia:
-        'Graterol, Y. (2018). <em>Cómo funcionan los índices en MongoDB</em> [video]. Youtube.',
+        'Graterol, Y. (2018). <em>Cómo funcionan los índices en MongoDB</em> [video]. YouTube. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DJ5Wnkn5w0g',
     },
     {
-      tema: '<em>CRUD</em> en MongoDB',
+      tema: 'CRUD en MongoDB',
       referencia:
-        'Medina, J. (2021). <em>Curso MongoDB - 1 Introducción</em> [video]. Youtube.',
+        'Medina, J. (2021). <em>Curso MongoDB - 1 Introducción [video].</em> YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=SUtH1LGfa8o&list=PLvimn1Ins-43y_9RNEo4JIFdpA5SJCYey',
     },
     {
-      tema: 'Sistema gestor de bases de datos NoSQL',
+      tema: 'Gestores de BD NoSQL',
       referencia:
-        'Narváez, M., Grefa, P., Caisa, M., & Guisñan, P. (2020). Análisis de Desempeño entre MONGODB y COUCHDB utilizando Norma ISO/IEC 25000. <em>Revista Perspectivas, 2</em> (2), p. 13-20.',
+        'Narváez, M., Grefa, P., Caisa, M. & Guisñan, P. (2020). Análisis de Desempeño entre MONGODB y COUCHDB utilizando Norma ISO/IEC 25000. <em>Revista Perspectivas, 2 (2), p. 13-20.</em> .',
       tipo: 'Artículo',
       link: 'https://doi.org/10.47187/perspectivas.vol2iss2.pp13-20.2020',
     },
@@ -197,7 +197,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Lasluisa, K., Gaibor, M., Baldeón, P & Toasa, R. (2020). Evaluación del desempeño en tiempos de respuesta para bases de datos SQL, NoSQL y NewSQL. <em>RISTI: Revista Ibérica de Sistemas en Tecnologías de Información</em>. (37), p. 28-40.',
+        'Lasluisa, K., Gaibor, M., Baldeón, P. & Toasa, R. (2020). Evaluación del desempeño en tiempos de respuesta para bases de datos SQL, NoSQL y NewSQL. <em>RISTI: Revista Ibérica de Sistemas en Tecnologías de Información.</em> (37), p. 28-40. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_proquest_journals_2472669226',
     },
@@ -208,12 +208,12 @@ export default {
     },
     {
       referencia:
-        'Makris, A., Tserpes, K., Spiliopoulos, G., Zissis, D., & Anagnostopoulos, D. (2021). MongoDB Vs PostgreSQL: Un estudio comparativo sobre aspectos de rendimiento. <em>Geoinformática.</em> 25(2), p. 243-268.',
+        'Makris, A., Tserpes, K., Spiliopoulos, G., Zissis, D. & Anagnostopoulos, D. (2021). MongoDB Vs PostgreSQL: Un estudio comparativo sobre aspectos de rendimiento. <em>Geoinformática</em>, 25(2), p. 243-268. ',
       link: 'https://doi.org/10.1007/s10707-020-00407-w',
     },
     {
       referencia:
-        'Marrero, L., Olsowy, V., Thomas, P., Delía, L., Tesone, F., Fernández, J., & Pesado, P (2019, octubre, 14 al 18). Un estudio comparativo de bases de datos relacionales y bases de datos NoSQL. <em>XXV Congreso Argentino de Ciencias de la Computación (CACIC)</em> Universidad Nacional de Río Cuarto, Córdoba.',
+        'Marrero, L., Olsowy, V., Thomas, P., Delía, L., Tesone, F., Fernández, J. & Pesado, P. (2019). Un estudio comparativo de bases de datos relacionales y bases de datos NoSQL. <em>XXV Congreso Argentino de Ciencias de la Computación (CACIC)</em>Universidad Nacional de Río Cuarto, Córdoba.',
       link: 'http://sedici.unlp.edu.ar/handle/10915/91403',
     },
     {
@@ -224,7 +224,7 @@ export default {
     },
     {
       referencia:
-        'Migani, S., Vera, C., & Lund, M.  (2018). NoSQL: modelos de datos y sistemas de gestión de bases de datos. <em>XX Workshop de Investigadores en Ciencias de la Computación</em>, p. 225-228.',
+        'Migani, S., Vera, C. & Lund, M.  (2018). NoSQL: modelos de datos y sistemas de gestión de bases de datos. <em>XX Workshop de Investigadores en Ciencias de la Computación</em>, p. 225-228.',
       link: 'http://sedici.unlp.edu.ar/handle/10915/67258',
     },
     {
@@ -239,7 +239,7 @@ export default {
     },
     {
       referencia:
-        'Sánchez, A., Durán, M., González, A., & Ballesteros, J. (2020) ScraCOVID-19: Plataforma informativa de contenido digital mediante Scraping y almacenamiento NoSQL. <em>Inge Cuc, 16</em>(1), p. 229-237.',
+        'Sánchez, A., Durán, M., González, A. & Ballesteros, J. (2020) ScraCOVID-19: Plataforma informativa de contenido digital mediante Scraping y almacenamiento NoSQL. <em>Inge Cuc,</em> 16(1), p. 229-237. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_eea040fa8ae3499095e3b1dc42bd06d8',
     },

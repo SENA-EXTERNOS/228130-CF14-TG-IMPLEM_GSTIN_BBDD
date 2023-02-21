@@ -16,9 +16,7 @@
         .col-lg-8(data-aos="fade-left")
           .contenedor-dashed.p-4
             .bloque-texto-a__texto.p-4
-              p.mb-3 Estimado aprendiz, a través del presente componente formativo conocerá las bases de datos no relacionales y los gestores que permiten su administración, así como los diferentes tipos que se pueden manejar. Igualmente, aprenderá sobre los procedimientos y funciones de una base de datos. Lo invitamos a ver el siguiente video para documentarse sobre cada una de las temáticas comprendidas.
-              p.mb-0 
-                b ¡Muchos éxitos en este proceso de aprendizaje!
+              p.mb-3 Apreciado aprendiz, bienvenido a este componente formativo, donde conocerá las bases de datos no relacionales y los gestores que permiten su administración, así como también, los diferentes modelos que se pueden manejar. Igualmente, aprenderá sobre los procedimientos y funciones de una base de datos. En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
     figure.mb-5(data-aos="zoom-in")
       .video

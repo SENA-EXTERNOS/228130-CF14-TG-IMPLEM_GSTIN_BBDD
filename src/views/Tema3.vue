@@ -13,7 +13,7 @@
           .col-lg-7.order-lg-first.order-sm-last
             .contenedor-dashed.p-3
               .bloque-texto-a__texto.p-4
-                p.mb-0 Dentro de las bases de datos no relacionales, se encuentran distintos modelos o tipos de implementaciones. Este grupo de bases de datos no relacionales NoSQL desempeñan funciones para diferentes ambientes en particular y con necesidades también diferentes. Existen algunos tipos más comunes que otros, ya que están orientadas a documentos por permitir mejor escalabilidad horizontal, (Macarrón, 2021).
+                p.mb-0 Dentro de las bases de datos no relacionales, se encuentran distintos modelos o tipos de implementaciones. Este grupo de bases de datos no relacionales NoSQL, desempeñan funciones para diferentes ambientes en particular y con necesidades también divergentes. Existen algunos tipos más comunes que otros, porque están orientadas a documentos, porque permiten mejor escalabilidad horizontal.
           .col-lg-5.mb-4.mb-lg-0.p-4
             img(src='@/assets/curso/temas/tema3/img3-1.png', alt='Gestores de BBDD NoSQL')
 
@@ -22,14 +22,19 @@
       |Bases de datos basadas en clave valor
 
     p.mb-5(data-aos="fade-right") A continuación, se presentan algunos referentes para tener en cuenta con relación a las bases de datos basadas en claves valor.
-
+    p.mb-5(data-aos='fade-right') Las bases de datos basadas en clave-valor, son un tipo de base de datos NoSQL sencillo, que sirve para insertar y consultar datos.
+      br
+      br
+      |A continuación, se presentan algunas características para tener en cuenta con relación a las bases de datos basadas en clave-valor:
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo='b')
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Definición
-            p.mb-3 Las bases de datos basadas en clave valor son un tipo de base de datos NoSQL sencillo, sirve para insertar y consultar datos. El concepto ‘clave valor’ significa que los datos se almacenan como una colección de pares; la clave identifica de forma única la colección y el valor contiene los datos y se ordenan según la clave.
-            p.mb-0 Básicamente el almacenamiento de clave-valor determina el equilibrio óptimo entre la actualización de datos, la inserción y el rendimiento de recuperación.
+            p.mb-0 El concepto ‘clave-valor’ significa que los datos se almacenan como una colección de pares; la clave identifica de forma única la colección, y el valor contiene los datos y se ordenan según la clave.
+              br
+              br
+              |Básicamente, el almacenamiento de clave-valor, determina el equilibrio óptimo entre la actualización de datos, la inserción, y el rendimiento de recuperación.
           .col-md-4.col-sm-5
             figure
               img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='BBDD NoSQL')
@@ -38,11 +43,6 @@
           .col-md-8.mb-4.mb-md-0
             h4 Ejemplo bases de datos basadas en clave valor
             p.mb-3 Suponer que se requiere almacenar datos de una persona, como su cédula, nombres, apellidos, correo y varios números de teléfono, y que, por ejemplo, necesita guardar los datos para las siguientes personas:
-            
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 1.
-              br
-              em Listado de datos
             .tabla-a.color-acento-contenido.mb-5
               table
                 thead
@@ -99,10 +99,6 @@
             p.mb-4 En la misma base de datos se necesita guardar datos de carros siendo la placa lo que permite identificar al vehículo; entonces, los datos a guardar serían:
             .row.justify-content-center.align-items-center
               .col-md-6
-                .titulo-sexto.color-acento-contenido
-                  h5 Tabla 2.
-                  br
-                  em Listado de datos de automóvil
                 figure
                   img(src='@/assets/curso/temas/tema3/img3-4.svg', alt='Datos automóvil')
           .col-md-4
@@ -113,10 +109,6 @@
           .col-md-6.mb-4.mb-md-0
             h4 La base de datos sería:
             
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 3.
-              br
-              em Base de datos clave - valor
 
           .row.justify-content-center.mb-5
               .col-md-6
@@ -182,10 +174,6 @@
           .col-md-8.mb-4.mb-md-0
             h4 Listado de las bases de datos más reconocidas
             
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 4.
-              br
-              em Bases de datos clave-valor más reconocidas
             .tabla-a.color-acento-contenido.mb-5
               table
                 thead
@@ -220,7 +208,7 @@
         .col-lg-8
           .contenedor-dashed.p-4
             .bloque-texto-a__texto.p-4
-              p.mb-3 Los SGBD con estas características son denominadas bases de datos documentales, funcionan en el marco de la definición de un “documento”; la mayoría de estos SGBD coinciden en cómo se almacena la información empleando un formato estándar. Los formatos estándares más comunes o populares son JSON, BSON y XML. Se podría considerar este último tipo de formato como el más utilizado en la actualidad.
+              p.mb-3 Los SGBD con estas características, son denominados bases de datos documentales y funcionan en el marco de la definición de un “documento”; la mayoría de estos SGBD coinciden en cómo se almacena la información, empleando un formato estándar. Los formatos estándares más comunes o populares son JSON, BSON y XML. Se podría considerar este último tipo de formato, como el más utilizado en la actualidad y teniendo en cuenta lo anterior, profundizaremos un poco más sobre ellos:
 
     TabsA.color-primario.mb-5
       .tarjeta.tarjeta--gris.p-4(titulo="Formato XML")
@@ -255,14 +243,11 @@
         h4 Definición
         .row.justify-content-center
           .col-md-10.col-sm-10
-            p JSON (acrónimo de 
-              em JavaScript object notation
-              |, «notación de objeto de 
-              em JavaScript
-              |») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de 
-              em JavaScript
-              |, aunque, debido a su amplia adopción como alternativa a XML se considera desde el año 2019 un formato independiente del lenguaje (Wikipedia, 2021).
-            p En el formato JSON hay que tener en cuenta como este se encuentra compuesto según el tipo de datos:
+            p Notación de objetos JavaScript JSON, (JavaScript Object Notation), es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera, desde el año 2019, un formato independiente del lenguaje.
+              br
+              br
+              | En el formato JSON, hay que tener en cuenta cómo este se encuentra compuesto, según el tipo de datos:
+
             ol
               li.mb-3
                 i.fas.fa-square.cac.me-3
@@ -309,7 +294,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.svg', alt='Monitor y persona')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p Las bases de datos no relacionales documentales se caracterizan por el concepto de guardar la información con el modelo de clave/valor. Es por eso por lo que los documentos más comunes son en formato JSON; la diferencia fundamental de este tipo de bases de datos radica en que un documento se almacena en una clave en la BD correspondiente. Esta definición puede parecer abstracta, se complementa mejor su concepto por medio de un ejemplo.
+        p Las bases de datos no relacionales documentales, se caracterizan por el concepto de guardar la información con el modelo de clave-valor. Es por esta razón por lo que los documentos más comunes son en formato JSON; la diferencia fundamental de este tipo de bases de datos radica en que un documento se almacena en una clave en la BD correspondiente. Esta definición puede parecer abstracta y se complementa mejor su concepto, por medio de un ejemplo:
 
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="zoom-in")
       SlyderA(tipo='b')
@@ -318,10 +303,6 @@
             h4 Representación de los datos de una persona en un documento
             .row.justify-content-center.align-items-center.mb-4
               .col-md-6
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 1.
-                  br
-                  em Datos en un documento
                 figure
                   img(src='@/assets/curso/temas/tema3/img3-10.svg', alt='Datos en documento')
             p Note cómo “nombres” es la clave y “JUAN CARLOS” es el valor. De la misma forma como “edad” es la clave y 65 el valor.
@@ -343,13 +324,11 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            p La representación de JSON que se muestra en la tabla 5 es una representación en formato texto, en donde también se puede representar en formato binario (unos y ceros); a esta otra representación equivalente en binario se le llama BSON; es una cadena de unos y ceros sin nada que la caracterice de más.
-            p Ejemplo:
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 5.
+            p La representación de JSON que se muestra en la tabla, es una representación en formato texto, y también se puede representar en formato binario (unos y ceros); a esta otra representación equivalente en binario, se le llama BSON; es una cadena de unos y ceros sin nada que la caracterice de más.
               br
-              em Formato XML vs Formato JSON
+              br
+              |Ejemplo:
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3-14.svg', alt='XML vs JSON')
                     
@@ -357,10 +336,6 @@
           .col-md-12.mb-4.mb-md-0
             h4 Bases de datos no documentadas
             p A continuación, un listado de las bases de datos más reconocidas:
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 6.
-              br
-              em Bases de datos no documentadas
           .tabla-a.color-acento-contenido
             table
               thead

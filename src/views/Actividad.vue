@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Estructura de las bases de datos NoSQL
-        p.mb-4 El objetivo principal de la presente actividad es verificar. los saberes más importantes del material correspondiente a la temática tratada; por ello, responda cada una de las preguntas de acuerdo a sus conocimientos adquiridos:
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

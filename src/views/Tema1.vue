@@ -25,7 +25,7 @@
             .bloque-texto-a__texto.p-4
               p.mb-0 Los nuevos requerimientos a nivel internacional en la actualidad son: una disponibilidad total, tolerancia a fallos, gran capacidad de almacenamiento para un gran volumen de información, buen desempeño con futuro crecimiento y escalabilidad horizontal, manejo de grandes volúmenes de datos estructurados y no estructurados, implementación de nuevas metodologías de consultas, libertad para manejar nuevos esquemas y datos con control total.
       
-    p.mb-5(data-aos="fade-down") Debido a que las bases de datos relacionales no respondían de forma adecuada a la necesidad para la exigencia en tiempos de demanda, nacieron las bases de datos NoSQL. A continuación, se presentan algunos puntos importantes a tener en cuenta.
+    p.mb-5(data-aos="fade-down") Debido a que las bases de datos relacionales no respondían de forma adecuada a la necesidad de la exigencia en tiempos de demanda, nacieron las bases de datos NoSQL. A continuación, se presentan algunos términos importantes para tener en cuenta:
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")

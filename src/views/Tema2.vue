@@ -12,11 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='Código')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p Los sistemas de gestión de bases de datos (en inglés 
-          em Database Management System
-          |, abreviado DBMS) son un tipo de 
-          em software 
-          |muy específico; dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. El propósito general de los sistemas de gestión es el de manejar de manera clara, sencilla y ordenada un conjunto de datos que posteriormente se convertirán en información relevante para una organización. (Treviño, M., et al, 2019).
+        p Los sistemas de gestión de bases de datos DBMS (#[em Data Base Management System]), se refieren a un tipo de #[em software] muy específico, dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. El propósito general de los sistemas de gestión es el de administrar, de manera clara, sencilla y ordenada, un conjunto de datos que, posteriormente, se convertirán en información relevante para una organización.
 
     .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
@@ -87,7 +83,7 @@
               .col-auto.mb-3.mb-sm-0
                 p.text-small Para conocer sobre la instalación de MongoBD y su configuración puede consultar el documento anexo.
               .col.mb-3.mb-sm-0
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo1.docx')" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/CF14_Anexo1.pdf')" target="_blank" type="application/pdf")
                   span(style='color:#12263F !important') Descargar 
                   i.fas.fa-file-download(style='color:#12263F !important')
 

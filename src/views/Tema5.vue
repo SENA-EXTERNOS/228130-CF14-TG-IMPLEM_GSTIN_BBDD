@@ -31,9 +31,10 @@
       i.fas.fa-square.cac.me-3
       |Operaciones CRUD
 
-    p.mb-5(data-aos="fade-left") En una base de datos de tipo NoSQL se realizan también las operaciones 
-      em CRUD 
-      |como lo son: guardar, modificar, eliminar y consultar documentos de la base de datos. A continuación, se describen cada una de ellas:
+    p.mb-5(data-aos="fade-left") En una base de datos de tipo NoSQL, se realizan también las operaciones CRUD como: guardar, modificar, eliminar y consultar documentos, de la base de datos.
+      br
+      br
+      |A continuación, se describen cada una de estas operaciones:
 
     .row.justify-content-center.mb-5
       .col-md-8.col-sm-9(data-aos="zoom-in")
@@ -143,7 +144,7 @@
               .col-auto.mb-3.mb-sm-0
                 p.mb-0.text-small Para profundizar un poco más en las operaciones CRUD se le invita revisar el documento anexo.
               .col.mb-3.mb-sm-0
-                a.boton.color-acento-contenido(:href="obtenerLink('downloads/Anexo2.docx')" target="_blank" type="application/pdf")
+                a.boton.color-acento-contenido(:href="obtenerLink('downloads/CF14_Anexo2.pdf')" target="_blank" type="application/pdf")
                   span(style='color:#12263F !important') Descargar 
                   i.fas.fa-file-download(style='color:#12263F !important')
 
@@ -151,7 +152,7 @@
       i.fas.fa-square.cac.me-3
       |Índices
 
-    p.mb-5(data-aos="fade-right") Se abordará ahora el concepto de índices en MongoDB, así como su sintaxis y un ejemplo de este.
+    p.mb-5(data-aos="fade-right") Se abordará ahora el concepto de índices en MongoDB, así como también su sintaxis y un ejemplo de este:
 
     .row.justify-content-center.mb-5
       .col-md-10.col-sm-9(data-aos="zoom-in")
@@ -223,7 +224,10 @@
         figure
           img(src='@/assets/curso/temas/tema5/img5-8.svg', alt='Código')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 El comando de validación verifica la corrección de los datos e índices de una colección y devuelve los resultados. Además, este comando también puede encontrar inconsistencias en la colección y corregirlas si es posible.
+        p.mb-0 El comando de validación verifica la corrección de los datos e índices, de una colección y devuelve los resultados.
+          br
+          br
+          |El comando también puede encontrar inconsistencias en la colección y corregirlas si es posible; observemos el proceso:
 
     .row.justify-content-center.mb-5
       .col-md-9(data-aos="fade-right")
@@ -246,10 +250,6 @@
             
           .row.justify-content-center(titulo="Sintaxis:")
             .col-md-10
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 12.
-                br
-                em Validación de script
               figure
                 img(src='@/assets/curso/temas/tema5/img5-10.svg', alt='Código')
                 figcaption Nota: adaptado de MongoDb. (s/f).
@@ -403,11 +403,11 @@
               em changelog
               |?: es un fichero que contiene todos los cambios que se requieren aplicar en la base de datos. Estos ficheros pueden ser XML, YAML, JSON o SQL; para conocer algunos ejemplos de este puede consultar el documento anexo.
           .col-md-2
-            a.boton.color-acento-contenido(:href="obtenerLink('downloads/Anexo3.docx')" target="_blank" type="application/pdf")
+            a.boton.color-acento-contenido(:href="obtenerLink('downloads/CF14_Anexo3.pdf')" target="_blank" type="application/pdf")
               span(style='color:#12263F !important') Descargar 
               i.fas.fa-file-download(style='color:#12263F !important')
 
-    p.mb-5 En el siguiente video se puede observar el proceso de construcción de una base de datos en un motor de bases de datos NoSQL:
+    p.mb-5 En el siguiente video se puede observar el proceso de construcción de una base de datos, en un motor de bases de datos NoSQL:
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -416,7 +416,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: rgba(255, 179, 11, .15)")
-          p.mb-0 Tenga en cuenta que el componente formativo dispone de más recursos que se ubican en este, para ello diríjase al menú principal en donde encontrará entre otros, la síntesis, una actividad didáctica y el material complementario.
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 

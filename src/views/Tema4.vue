@@ -25,12 +25,13 @@
         figure
           img(src='@/assets/curso/temas/tema4/img4-2.svg', alt='Datos almacenados')
       .col-lg-11.col-sm-10(data-aos="fade-right")
-        p Un procedimiento almacenado es un conjunto de instrucciones que se pueden llamar desde otras consultas o desde otros procedimientos almacenados. Un procedimiento puede tomar argumentos de entrada y mostrar valores como resultados. En estos casos se debe nombrar y almacenar un procedimiento en un conjunto de datos de 
-          em BigQuery
-          |. Un procedimiento almacenado puede acceder a los datos o modificarlos en varios conjuntos de datos de varios usuarios. También puede contener una consulta de varias instrucciones.
-        p.mb-0 Generalmente algunos procedimientos almacenados están compilados en 
-          em BigQuery 
-          |y no deben construirse; estos son llamados procedimientos del sistema.
+        p Un procedimiento almacenado es un conjunto de instrucciones que se pueden llamar desde otras consultas, o desde otros procedimientos almacenados.
+          br
+          br
+          |Un procedimiento puede tomar argumentos de entrada y mostrar valores como resultados. En estos casos, se debe nombrar y almacenar un procedimiento en un conjunto de datos de BigQuery. Un procedimiento almacenado puede acceder a los datos o modificarlos en varios conjuntos de datos, de varios usuarios. También puede contener una consulta de varias instrucciones.
+          br
+          br
+          |Generalmente, algunos procedimientos almacenados están compilados en BigQuery y no deben construirse; estos son llamados procedimientos del sistema; a continuación, conoceremos sus particularidades:
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Características")
@@ -121,7 +122,10 @@
               .col-lg-7.order-lg-first.order-sm-last
                 .contenedor-dashed.p-3
                   .bloque-texto-a__texto.p-4
-                    p.mb-0 Una función almacenada es un conjunto de instrucciones que realizan en determina operación y devuelven un único valor. Se presenta a continuación sus características y estructura.
+                    p.mb-0 Una función almacenada es un conjunto de instrucciones que realizan en determinada operación y devuelven un único valor.
+                      br
+                      br
+                      | Se presentan a continuación, sus características y estructura:
               .col-lg-5.mb-4.mb-lg-0.p-4
                 img(src='@/assets/curso/temas/tema4/img4-9.svg', alt='MongoDB')
 
@@ -154,35 +158,19 @@
                 p Ejemplo de una función suma de dos números. Esta función por nombre es “sum”, donde recibe dos parámetros x y donde a su vez son los números para realizar dicha operación.
                 .row.justify-content-center.mb-5
                   .col-md-10
-                    .titulo-sexto.color-acento-contenido
-                      h5 Figura 3.
-                      br
-                      em Funciones almacenadas
                     figure
                       img(src='@/assets/curso/temas/tema4/img4-12.svg', alt='Código funciones almacenadas')
                 p También se puede realizar su implementación de la siguiente forma:
                 .row.justify-content-center.mb-5
                   .col-md-10
-                    .titulo-sexto.color-acento-contenido
-                      h5 Figura 4.
-                      br
-                      em Ejemplo funciones almacenadas
                     figure
                       img(src='@/assets/curso/temas/tema4/img4-13.svg', alt='Ejemplo funciones almacenadas')
                 p Para su respectiva consulta si existe la función y la eliminación de la función:
                 .row.justify-content-center.mb-5
                   .col-md-10
-                    .titulo-sexto.color-acento-contenido
-                      h5 Figura 5.
-                      br
-                      em Consulta de una función almacenada
                     figure.mb-4
                       img(src='@/assets/curso/temas/tema4/img4-14.svg', alt='Consulta a función almacenada')
                     
-                    .titulo-sexto.color-acento-contenido
-                      h5 Figura 6.
-                      br
-                      em Eliminación de una función almacenada
                     figure
                       img(src='@/assets/curso/temas/tema4/img4-14.svg', alt='Eliminación de función almacenada')
               .col-md-2.col-sm-2
@@ -244,10 +232,6 @@
             p Los objetos de evento de actualizaciones en la base de datos tienen la siguiente sintaxis:
             .row.justify-content-center.mb-3
               .col-md-10
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 7.
-                  br
-                  em Estructura de un disparador
                 figure
                   img(src='@/assets/curso/temas/tema4/img4-17.svg', alt='Estructura de disparador')
                   figcaption Nota: adaptada de MongoDB, (s/f).
@@ -255,10 +239,6 @@
             p Un disparador se configura con la siguiente expresión de proyecto:
             .row.justify-content-center.mb-3
               .col-md-10
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 8.
-                  br
-                  em Configuración de un disparador
                 figure
                   img(src='@/assets/curso/temas/tema4/img4-18.svg', alt='Configuración de disparador')
                   figcaption Nota: adaptada de MongoDB, (s/f).
@@ -266,10 +246,6 @@
             p El objeto de evento de cambio que pasa a la función de disparador solo incluye los campos especificados en la proyección, como se destaca en el ejemplo a continuación:
             .row.justify-content-center.mb-3
               .col-md-10
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 9.
-                  br
-                  em Ejemplo de un disparador
                 figure
                   img(src='@/assets/curso/temas/tema4/img4-19.svg', alt='Ejemplo de disparador')
                   figcaption Nota: adaptada de MongoDB, (s/f).
@@ -288,7 +264,8 @@
             .col-lg-7
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 Los paquetes en PL/SQL tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta forma, se consigue obtener un único objeto en todas las instrucciones asociadas a un determinado tipo de tarea. Así pues, por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos los podemos agrupar en un paquete.
+                  p.mb-0 Los paquetes en PL/SQL, tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta manera, se consigue obtener un único objeto en todas las instrucciones, asociadas a un determinado tipo de tarea.
+    p.mb-5(data-aos='fade-right') Por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos, los podemos agrupar en un paquete:
 
     .row.mb-5
       .col-lg-4.mb-sm-4(data-aos="fade-right")
@@ -319,18 +296,10 @@
               em package
               |), se declaren todos los subprogramas públicos. Hay que recordar que en este espacio se deben declarar aquellas funciones o procedimientos que actúan como interfaz. También se declaran las variables o constantes que se requieren tener como globales y que se puedan cambiar o referenciar fuera del paquete.
             p Esta sería la sintaxis.
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 10.
-              br
-              em Estructura de un paquete
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-22.svg', alt='Estructura de paquete')
               figcaption Nota: adaptado de Wikipedia (s/f).
             p El cuerpo donde se define cada uno de los procedimientos y/o las funciones tendría la siguiente sintaxis:
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 11.
-              br
-              em Sintaxis de un paquete
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-23.svg', alt='Sintaxis de paquete')
               figcaption Nota: adaptado de Wikipedia (s/f).
