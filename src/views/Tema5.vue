@@ -142,7 +142,7 @@
           .col-auto
             .row.justify-content-between.align-items-center
               .col-auto.mb-3.mb-sm-0
-                p.mb-0.text-small Para profundizar un poco más en las operaciones CRUD se le invita revisar el documento anexo.
+                p.mb-0 Para profundizar un poco más en las operaciones CRUD se le invita revisar el documento anexo.
               .col.mb-3.mb-sm-0
                 a.boton.color-acento-contenido(:href="obtenerLink('downloads/CF14_Anexo2.pdf')" target="_blank" type="application/pdf")
                   span(style='color:#12263F !important') Descargar 
@@ -156,12 +156,12 @@
 
     .row.justify-content-center.mb-5
       .col-md-10.col-sm-9(data-aos="zoom-in")
-        ImagenInfograficaB.color-acento-contenido.mb-5
+        ImagenInfograficaB.color-acento-contenido.mb-5.align-items-center
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema5/img5-4.svg', alt='Índices')
               
-          div(x="69%" y="22%" tooltip="1" numero="+")
+          div(x="69%" y="22%" tooltip="1" numero="+").d-flex.align-items-center
             p Los índices en MongoDB se implementan para brindar una eficiencia durante la ejecución de las diferentes consultas que son activadas desde el cliente. En caso de no implementarse índices en la base de datos de MongoDB se tendría que realizar un escaneo completo de todo el documento presente en las colecciones en busca de la obtención de un resultado, gastando así mucho más tiempo y recursos, utilizando índices se puede seleccionar la colección adecuada evitando el escaneo competo de todas las colecciones. Los índices son creados a nivel de colección.
 
           div(x="69%" y="42%" tooltip="2" numero="+")
@@ -399,7 +399,7 @@
             img(src="@/assets/curso/temas/tema5/img5-15.svg" alt="Ruedas dentadas")
           .col-md-9.col-sm-10
             h4.mb-1 Uso y configuración
-            p.text-small ¿Qué es el 
+            p ¿Qué es el 
               em changelog
               |?: es un fichero que contiene todos los cambios que se requieren aplicar en la base de datos. Estos ficheros pueden ser XML, YAML, JSON o SQL; para conocer algunos ejemplos de este puede consultar el documento anexo.
           .col-md-2

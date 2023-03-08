@@ -114,7 +114,7 @@ export default {
     {
       tema: 'CRUD en MongoDB',
       referencia:
-        'Díaz, A. (2019). <em>Introducción a las bases de datos NoSQL: comparativa MongoDB vs Cassandra.</em> [Trabajo de grado, Universidad de Álcala Escuela técnica superior]. https://ebuah.uah.e',
+        'Díaz, A. (2019). <em>Introducción a las bases de datos NoSQL: comparativa MongoDB vs Cassandra.</em> [Trabajo de grado, Universidad de Álcala Escuela técnica superior].',
       tipo: 'Trabajo de grado',
       link:
         'https://ebuah.uah.es/dspace/bitstream/handle/10017/38612/TFG_Diaz_Moreno_2019.pdf?sequence=1&isAllowed=y',
@@ -122,7 +122,7 @@ export default {
     {
       tema: 'CRUD en MongoDB',
       referencia:
-        'Graterol, Y. (2018). <em>Cómo funcionan los índices en MongoDB</em> [video]. YouTube. Youtube.',
+        'Graterol, Y. (2018). <em>Cómo funcionan los índices en MongoDB</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DJ5Wnkn5w0g',
     },
@@ -248,10 +248,6 @@ export default {
         'Treviño, M., Esquivel, G., Quirós, R., & Víquez, L. (2019). Una comparación de rendimiento entre bases de datos NoSQL: MongoDB y ArangoDB. <em>Tecnología En Marcha, 32</em> (9), p. 5-15.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_dialnet_primary_oai_dialnet_unirioja_es_ART0001391869',
-    },
-    {
-      referencia: 'Wikipedia. (S.F). <em>Paquetes en PL/SQL.</em> Wikipedia.',
-      link: 'https://es.wikipedia.org/wiki/Paquetes_en_PL/SQL',
     },
   ],
   creditos: {

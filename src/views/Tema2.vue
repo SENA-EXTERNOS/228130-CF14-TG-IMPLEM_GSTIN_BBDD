@@ -81,7 +81,7 @@
           .col-auto
             .row.justify-content-between.align-items-center
               .col-auto.mb-3.mb-sm-0
-                p.text-small Para conocer sobre la instalación de MongoBD y su configuración puede consultar el documento anexo.
+                p Para conocer sobre la instalación de MongoBD y su configuración puede consultar el documento anexo.
               .col.mb-3.mb-sm-0
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/CF14_Anexo1.pdf')" target="_blank" type="application/pdf")
                   span(style='color:#12263F !important') Descargar 

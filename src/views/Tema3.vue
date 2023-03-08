@@ -23,9 +23,6 @@
 
     p.mb-5(data-aos='fade-right') Las bases de datos basadas en clave-valor, son un tipo de base de datos NoSQL sencillo, que sirve para insertar y consultar datos.
     p.mb-5(data-aos="fade-right") A continuación, se presentan algunas características para tener en cuenta con relación a las bases de datos basadas en clave-valor:
-      br
-      br
-      |A continuación, se presentan algunas características para tener en cuenta con relación a las bases de datos basadas en clave-valor:
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo='b')
         .row.justify-content-center
@@ -244,40 +241,29 @@
         .row.justify-content-center
           .col-md-10.col-sm-10
             p Notación de objetos JavaScript JSON, (JavaScript Object Notation), es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera, desde el año 2019, un formato independiente del lenguaje.
-
+              br
+              br
+              | En el formato JSON, hay que tener en cuenta cómo este se encuentra compuesto, según el tipo de datos:
 
             ol
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |#[b Cadenas de texto:]
-                |al ser una secuencia de ninguno o más caracteres, se ponen entre doble comilla, cómo en lenguaje 
-                em JavaScript
-                |. Ejemplo: “hola mundo”.
+                |Cadenas de texto: al ser una secuencia de ninguno o más caracteres, se ponen entre doble comilla, como en lenguaje JavaScript. Ejemplo, “hola mundo”.
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |#[b Números:]
-                |se permiten números negativos y positivos que también pueden contener partes no enteras separadas por puntos. Ejemplo: 654.321.
+                | Números: se permiten números negativos y positivos, que también pueden contener partes no enteras separadas por puntos. Ejemplo, 654.321.
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |#[b Arreglos:]
-                |representan una lista con ninguno o más valores, los cuales pueden ser todos del mismo o de diferente tipo. Los valores separados por comas y el vector, entre corchetes ([ ]). Ejemplo [“Luis”,” Carlos”,” Julian”,99].
+                |Arreglos: representan una lista con ninguno o más valores, los cuales pueden ser todos del mismo o de diferente tipo. Los valores separados por comas y el vector, entre llaves ([]). Ejemplo, [“Luis”,” Carlos”,” Julian”,99].
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |#[b #[em Booleanos:]]
-                |representan valores 
-                em booleanos 
-                |y pueden tener dos valores: 
-                em true 
-                |y 
-                em false.
+                | Booleanos: representan valores booleanos y pueden tener dos valores: true y false.
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |#[b Valores nulos:]
-                |representan el valor nulo (null).
+                | Valores nulos: representan el valor nulo (null).
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |#[b Objetos:]
-                |son colecciones no ordenadas de pares de la forma &lt;nombre&gt;:&lt;valor&gt;, donde el nombre debe ser separado por comas y puestos entre llaves ({}).
+                | Objetos: son colecciones no ordenadas de pares de la forma < nombre >:< valor >, donde el nombre debe ser separado por comas y puestos entre corchetes ({}).
 
           .col-md-2.col-sm-2
             figure
