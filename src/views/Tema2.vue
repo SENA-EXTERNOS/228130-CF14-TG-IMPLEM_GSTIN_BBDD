@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='Código')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p Los sistemas de gestión de bases de datos DBMS (#[em Data Base Management System]), se refieren a un tipo de #[em software] muy específico, dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. El propósito general de los sistemas de gestión es el de administrar, de manera clara, sencilla y ordenada, un conjunto de datos que, posteriormente, se convertirán en información relevante para una organización.
+        p Los sistemas de gestión de bases de datos DBMS #[em (Data Base Management System)], se refieren a un tipo de #[em software] muy específico, dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. El propósito general de los sistemas de gestión es el de administrar, de manera clara, sencilla y ordenada, un conjunto de datos que, posteriormente, se convertirán en información relevante para una organización. 
 
     .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(

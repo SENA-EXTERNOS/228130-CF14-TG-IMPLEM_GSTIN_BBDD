@@ -21,8 +21,8 @@
       i.fas.fa-square.cac.me-3
       |Bases de datos basadas en clave valor
 
-    p.mb-5(data-aos="fade-right") A continuación, se presentan algunos referentes para tener en cuenta con relación a las bases de datos basadas en claves valor.
     p.mb-5(data-aos='fade-right') Las bases de datos basadas en clave-valor, son un tipo de base de datos NoSQL sencillo, que sirve para insertar y consultar datos.
+    p.mb-5(data-aos="fade-right") A continuación, se presentan algunas características para tener en cuenta con relación a las bases de datos basadas en clave-valor:
       br
       br
       |A continuación, se presentan algunas características para tener en cuenta con relación a las bases de datos basadas en clave-valor:
@@ -34,7 +34,7 @@
             p.mb-0 El concepto ‘clave-valor’ significa que los datos se almacenan como una colección de pares; la clave identifica de forma única la colección, y el valor contiene los datos y se ordenan según la clave.
               br
               br
-              |Básicamente, el almacenamiento de clave-valor, determina el equilibrio óptimo entre la actualización de datos, la inserción, y el rendimiento de recuperación.
+              | Básicamente, el almacenamiento de clave-valor, determina el equilibrio óptimo entre la actualización de datos, la inserción, y el rendimiento de recuperación.
           .col-md-4.col-sm-5
             figure
               img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='BBDD NoSQL')
@@ -244,9 +244,7 @@
         .row.justify-content-center
           .col-md-10.col-sm-10
             p Notación de objetos JavaScript JSON, (JavaScript Object Notation), es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera, desde el año 2019, un formato independiente del lenguaje.
-              br
-              br
-              | En el formato JSON, hay que tener en cuenta cómo este se encuentra compuesto, según el tipo de datos:
+
 
             ol
               li.mb-3
@@ -365,7 +363,7 @@
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
+          h5 Figura 1
           br
           em Base de datos orientada a grafos
         figure(data-aos="zoom-in")
@@ -383,7 +381,7 @@
     .row.justify-content-center
       .col-md-8(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 7.
+          h5 Tabla 1
           br
           em Bases de datos orienta a grafos
 

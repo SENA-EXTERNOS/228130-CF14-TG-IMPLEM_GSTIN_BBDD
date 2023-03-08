@@ -409,6 +409,7 @@
 
     p.mb-5 En el siguiente video se puede observar el proceso de construcción de una base de datos, en un motor de bases de datos NoSQL:
 
+
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/h-iS3eNZGvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

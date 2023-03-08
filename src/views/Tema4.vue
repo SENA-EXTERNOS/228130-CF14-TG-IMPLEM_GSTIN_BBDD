@@ -25,13 +25,10 @@
         figure
           img(src='@/assets/curso/temas/tema4/img4-2.svg', alt='Datos almacenados')
       .col-lg-11.col-sm-10(data-aos="fade-right")
-        p Un procedimiento almacenado es un conjunto de instrucciones que se pueden llamar desde otras consultas, o desde otros procedimientos almacenados.
+        p Un procedimiento puede tomar argumentos de entrada y mostrar valores como resultados. En estos casos, se debe nombrar y almacenar un procedimiento en un conjunto de datos de #[em BigQuery]. Un procedimiento almacenado puede acceder a los datos o modificarlos en varios conjuntos de datos, de varios usuarios. También puede contener una consulta de varias instrucciones.
           br
           br
-          |Un procedimiento puede tomar argumentos de entrada y mostrar valores como resultados. En estos casos, se debe nombrar y almacenar un procedimiento en un conjunto de datos de BigQuery. Un procedimiento almacenado puede acceder a los datos o modificarlos en varios conjuntos de datos, de varios usuarios. También puede contener una consulta de varias instrucciones.
-          br
-          br
-          |Generalmente, algunos procedimientos almacenados están compilados en BigQuery y no deben construirse; estos son llamados procedimientos del sistema; a continuación, conoceremos sus particularidades:
+          |Generalmente, algunos procedimientos almacenados están compilados en #[em BigQuery] y no deben construirse; estos son llamados procedimientos del sistema; a continuación, conoceremos sus particularidades:
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Características")
@@ -126,6 +123,7 @@
                       br
                       br
                       | Se presentan a continuación, sus características y estructura:
+
               .col-lg-5.mb-4.mb-lg-0.p-4
                 img(src='@/assets/curso/temas/tema4/img4-9.svg', alt='MongoDB')
 
@@ -186,8 +184,8 @@
         figure
           img(src='@/assets/curso/temas/tema4/img4-25.svg', alt='Hoja')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 Los disparadores implementados en MongoDB son una pieza fundamental donde permite ejecutar la lógica por parte del servidor del cliente después de que ocurra un evento en la base de datos, por ejemplo, las actualizaciones en las bases de datos como puede ser: la eliminación, inserción y modificación de datos. Los disparadores también llamados activadores tiene el poder de actualizar la información después de diferentes cambios como es la inserción de nuevos datos en las bases.
-
+        p.mb-0 Los disparadores implementados en MongoDB, son una pieza fundamental donde se permite ejecutar la lógica por parte del servidor del cliente, después que ocurra un evento en la base de datos; por ejemplo, actualizaciones en las bases de datos pueden ser: eliminación, inserción y modificación de datos. 
+    p.mb-5(data-aos='fade-right') Los disparadores también llamados activadores, tiene el poder de actualizar la información después de diferentes cambios, como la inserción de nuevos datos en las bases; teniendo en cuenta esto, verifiquemos sus principales variables:
     .row.mb-5
       .col-md-9(data-aos="fade-left")
         TabsA.color-primario
@@ -264,7 +262,7 @@
             .col-lg-7
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 Los paquetes en PL/SQL, tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta manera, se consigue obtener un único objeto en todas las instrucciones, asociadas a un determinado tipo de tarea.
+                  p.mb-0 Los paquetes en PL/SQL, tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta manera, se consigue obtener un único objeto en todas las instrucciones, asociadas a un determinado tipo de tarea. 
     p.mb-5(data-aos='fade-right') Por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos, los podemos agrupar en un paquete:
 
     .row.mb-5
@@ -298,11 +296,9 @@
             p Esta sería la sintaxis.
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-22.svg', alt='Estructura de paquete')
-              figcaption Nota: adaptado de Wikipedia (s/f).
             p El cuerpo donde se define cada uno de los procedimientos y/o las funciones tendría la siguiente sintaxis:
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-23.svg', alt='Sintaxis de paquete')
-              figcaption Nota: adaptado de Wikipedia (s/f).
             p Si se requiere eliminar un paquete de la base de datos tanto la especificación como el cuerpo, seria de la siguiente forma:
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-24.svg', alt='Eliminar paquete')
