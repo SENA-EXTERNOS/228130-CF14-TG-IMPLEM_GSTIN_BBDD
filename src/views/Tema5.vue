@@ -355,42 +355,32 @@
         figure
           img(src='@/assets/curso/temas/tema5/img5-13.svg', alt='Código')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 Su objetivo principal es mantener el control de todos los cambios realizados sobre la base de datos, almacenando la data de los mismos como lo es; autor, fecha, cambio, etc., relacionando dichos cambios a los desarrollos realizados sobre la aplicación e integrándolos con el propio control de versiones del código fuente.
+        p.mb-0 Su objetivo principal es mantener el control de todos los cambios realizados sobre la base de datos, almacenando la data de los mismos como lo es: autor, fecha, cambio, etc., relacionando dichos cambios a los desarrollos realizados sobre la aplicación e integrándolos con el propio control de versiones del código fuente.
 
     .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema5/img5-14.png')})`}"
       )
       .bloque-texto-g__texto.p-4.borde-dashed
-        h4 Características
+        h4.mb-4 Características
         br
         br
         ol
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Ejecución; cuando ya sea realizando de forma manual cada uno de los eventos (realizando la ejecución mediante comandos), o automática por medio de un 
-            em framework.
+            |Ejecución: cuando ya sea realizando de forma manual cada uno de los eventos (realizando la ejecución mediante comandos), o automática por medio de un #[i framework].
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Lectura de ficheros; todos los cambios ejecutados en la base de datos son almacenados en ficheros, que la herramental 
-            em liquibase
-            | los llama 
-            em Changelogs.
+            |Lectura de ficheros: todos los cambios ejecutados en la base de datos son almacenados en ficheros, que la herramental #[i liquibase] los llama #[i Changelogs].
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Validación con la base de datos; una vez 
-            em liquibase 
-            |sepa qué cambios existen en tus 
-            em changelogs
-            |, los cruza con su tabla interna llamada 
-            em DATABASECHANGELOG
-            |, la principal tabla principal de versiones/cambios que se crea durante la primera ejecución.
+            | Validación con la base de datos: una vez #[i liquibase] sepa qué cambios existen en tus #[i changelogs], los cruza con su tabla interna llamada #[i DATABASECHANGELOG], la principal tabla principal de versiones/cambios que se crea durante la primera ejecución.
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Aplicación de cambios; cuando se tiene claridad en los cambios a realizar, se debe ejecutar y actualizar la tabla de versiones.
+            |Aplicación de cambios: cuando se tiene claridad en los cambios a realizar, se debe ejecutar y actualizar la tabla de versiones.
 
     .col-lg-10.mx-auto.mb-5(data-aos="flip-up")
       .tarjeta.color-primario.img2-4.p-4
