@@ -93,7 +93,7 @@
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4.mb-4 Más posibilidades
-            p.mb-4 En la misma base de datos se necesita guardar datos de carros siendo la placa lo que permite identificar al vehículo; entonces, los datos a guardar serían:
+            p.mb-4 En la misma base de datos se necesita guardar datos de carros, siendo la placa lo que permite identificar al vehículo; entonces, los datos a guardar serían:
             .row.justify-content-center.align-items-center
               .col-md-6
                 figure
@@ -342,7 +342,7 @@
 
     h3(data-aos="fade-right").mb-5
       i.fas.fa-square.cac.me-3
-      |Bases de datos orientada a grafos
+      |Bases de datos orientadas a grafos
 
     p.mb-5(data-aos="fade-right") Un grafo es una colección de elementos “nodos”, que aportan información y relacionados mediante “aristas”, que son la conexión entre los nodos, y que pueden tener una dirección concreta (Macarrón, 2021).
 
@@ -351,7 +351,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           br
-          em Base de datos orientada a grafos
+          em Base de datos orientadas a grafos
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema3/img3-15.svg', alt='Grafos')
           figcaption Nota: adaptado de Macarrón, (2021).
@@ -369,7 +369,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           br
-          em Bases de datos orienta a grafos
+          em Bases de datos orientadas a grafos
 
         .tabla-a.color-acento-contenido.mb-5
           table

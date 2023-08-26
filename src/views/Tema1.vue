@@ -14,7 +14,7 @@
       .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 El término NoSQL tiene un significado particular, 
           em not only SQL
-          |. Generalmente estos se implementan en la agrupación de bases de datos diferentes a las tradicionales. El avance tecnológico a nivel mundial y las temáticas sobre 
+          |. Generalmente, estos se implementan en la agrupación de bases de datos diferentes a las tradicionales. El avance tecnológico a nivel mundial y las temáticas sobre 
           em big data, cloud computing, IoT, 
           |etc., han realizado aportes significativos para el desarrollo de la tecnología NoSQL.
 
@@ -43,7 +43,7 @@
               |, para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades). Actualmente, se usa mucho el término ‘escalabilidad vertical’, para referirse a este tipo de escalabilidad.
             p.mb-3
               b Escalabilidad horizontal: 
-              |consiste en potenciar el rendimiento del sistema desde un aspecto de mejora global, a diferencia de aumentar la potencia de una única parte de este. Este tipo de escalabilidad se basa en el modularidad de su funcionalidad (Sánchez, et al, 2020), es decir, que las funcionalidades se puedan extender con la misma facilidad con la que mejoran el rendimiento y capacidad.
+              |consiste en potenciar el rendimiento del sistema desde un aspecto de mejora global, a diferencia de aumentar la potencia de una única parte de este. Este tipo de escalabilidad se basa en la modularidad de su funcionalidad (Sánchez, et al, 2020), es decir, que las funcionalidades se puedan extender con la misma facilidad con la que mejoran el rendimiento y capacidad.
             p.mb-3
               b Escalabilidad vertical y horizontal: 
               |las bases de datos no relacionales están diseñadas para ofrecer sistemas con altas capacidades de escalabilidad vertical y horizontal.
@@ -80,12 +80,12 @@
                 |No generan cuellos de botella; el principal problema de los sistemas SQL es que se requiere trascribir cada sentencia que se va a ejecutar y cada sentencia necesita un nivel de ejecución aún más complejo, en donde muchas peticiones pueden volver lento al sistema.
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Algunos tipos de almacén de bases de datos NoSQL incluyen diferentes tipos de almacenes como por ejemplo el almacén de columnas, de documentos, de 
+                |Algunos tipos de almacén de bases de datos NoSQL incluyen diferentes tipos de almacenes, como por ejemplo el almacén de columnas, de documentos, de 
                 em key-value store
                 |, de gráficos, de objetos, de XML y muchos otros modos de almacén de datos.
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Algunos tipos de almacén de bases de datos NoSQL incluyen almacenes de columnas, de documentos, de valores de claves, de gráficos, de objetos, de XML y otros modos de almacén de datos.
+                |Algunos tipos de almacén de bases de datos NoSQL incluyen almacenes de columnas, documentos, valores claves, gráficos, objetos, XML y otros modos de almacén de datos.
 
           div(titulo="Desventajas de las bases de datos no relacionales (NoSQL)")
             ol

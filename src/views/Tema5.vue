@@ -236,13 +236,13 @@
             ol
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Un índice es multiclave pero no hay campos multiclave.
+                |Un índice es multiclave, pero no hay campos multiclave.
               li.mb-3
                 i.fas.fa-square.cac.me-3
                 |Un índice tiene multikeyPaths que cubren campos que no son multiclave.
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Un índice no tiene multikeyPaths pero hay documentos de varias claves.
+                |Un índice no tiene multikeyPaths, pero hay documentos de varias claves.
             p Si se detectan inconsistencias por parte del 
               b
                 em db.colección.validar() 
@@ -372,7 +372,7 @@
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Lectura de ficheros: todos los cambios ejecutados en la base de datos son almacenados en ficheros, que la herramental #[i liquibase] los llama #[i Changelogs].
+            |Lectura de ficheros: todos los cambios ejecutados en la base de datos son almacenados en ficheros, que la herramienta #[i liquibase] los llama #[i Changelogs].
             br
           li.mb-3
             i.fas.fa-square.cac.me-3

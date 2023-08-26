@@ -14,7 +14,7 @@
             .col-lg-10
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 En bases de datos no relacionales o NoSQL, no se realizan procedimientos almacenados se pueden realizar funciones que se enfocan en casos puntuales para ejecutar en las bases de datos. A continuación, se aborda los procedimientos almacenados y su respectiva estructura en bases de datos SQL.
+                  p.mb-0 En bases de datos no relacionales o NoSQL, no se realizan procedimientos almacenados, se pueden realizar funciones que se enfocan en casos puntuales para ejecutar en las bases de datos. A continuación, se aborda los procedimientos almacenados y su respectiva estructura en bases de datos SQL.
   
     h3(data-aos="fade-right").mb-5
       i.fas.fa-square.cac.me-3
@@ -185,7 +185,7 @@
           img(src='@/assets/curso/temas/tema4/img4-25.svg', alt='Hoja')
       .col-lg-11.col-sm-10(data-aos="fade-left")
         p.mb-0 Los disparadores implementados en MongoDB, son una pieza fundamental donde se permite ejecutar la lógica por parte del servidor del cliente, después que ocurra un evento en la base de datos; por ejemplo, actualizaciones en las bases de datos pueden ser: eliminación, inserción y modificación de datos. 
-    p.mb-5(data-aos='fade-right') Los disparadores también llamados activadores, tiene el poder de actualizar la información después de diferentes cambios, como la inserción de nuevos datos en las bases; teniendo en cuenta esto, verifiquemos sus principales variables:
+    p.mb-5(data-aos='fade-right') Los disparadores, también llamados activadores, tiene el poder de actualizar la información después de diferentes cambios, como la inserción de nuevos datos en las bases; teniendo en cuenta esto, verifiquemos sus principales variables:
     .row.mb-5
       .col-md-9(data-aos="fade-left")
         TabsA.color-primario
@@ -299,7 +299,7 @@
             p El cuerpo donde se define cada uno de los procedimientos y/o las funciones tendría la siguiente sintaxis:
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-23.svg', alt='Sintaxis de paquete')
-            p Si se requiere eliminar un paquete de la base de datos tanto la especificación como el cuerpo, seria de la siguiente forma:
+            p Si se requiere eliminar un paquete de la base de datos tanto la especificación como el cuerpo, sería de la siguiente forma:
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img4-24.svg', alt='Eliminar paquete')
             p Cabe destacar que en las bases de datos no relacionales o NoSQL no existe la agrupación de funciones o procedimientos llamados en SQL paquetes.

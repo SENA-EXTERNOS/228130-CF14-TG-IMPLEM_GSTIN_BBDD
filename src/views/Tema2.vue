@@ -49,7 +49,7 @@
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="flip-up")
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 En este sentido, la base de datos sólo sirve si existe un sistema que la gestione, un SGBD. En NoSQL, hay varios SGBD y la mayoría son de código libre o libre distribución. Es necesario tener en cuenta que, no obstante, pueden existir una gran variedad SGBD menos populares pero que pueden ser una buena opción en el momento de trabajar para 
+          p.mb-0 En este sentido, la base de datos sólo sirve si existe un sistema que la gestione, un SGBD. En NoSQL, hay varios SGBD y la mayoría son de código libre o libre distribución. Es necesario tener en cuenta que, no obstante, pueden existir una gran variedad SGBD menos populares, pero que pueden ser una buena opción en el momento de trabajar para 
             em Big Data.
 
     .row.justify-content-center.align-items-center.mb-5
