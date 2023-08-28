@@ -376,7 +376,7 @@
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
-            | Validación con la base de datos: una vez #[i liquibase] sepa qué cambios existen en tus #[i changelogs], los cruza con su tabla interna llamada #[i DATABASECHANGELOG], la principal tabla principal de versiones/cambios que se crea durante la primera ejecución.
+            | Validación con la base de datos: una vez #[i liquibase] sepa qué cambios existen en tus #[i changelogs], los cruza con su tabla interna llamada #[i DATABASECHANGELOG], la principal tabla de versiones/cambios que se crea durante la primera ejecución.
             br
           li.mb-3
             i.fas.fa-square.cac.me-3
