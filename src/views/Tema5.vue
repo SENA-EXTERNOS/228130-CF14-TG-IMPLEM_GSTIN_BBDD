@@ -22,11 +22,11 @@
                     em update
                     |) y eliminar un documento (
                     em delete
-                    |); siendo llamadas operaciones 
+                    |); siendo llamadas operaciones
                     em CRUD.
           .col-lg-5.mb-4.mb-lg-3.p-4
             img(src='@/assets/curso/temas/tema5/img5-1.svg', alt='Servidor')
-  
+
     h3(data-aos="fade-right").mb-5
       i.fas.fa-square.cac.me-3
       |Operaciones CRUD
@@ -42,7 +42,7 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema5/img5-2.svg', alt='CRUD')
-              
+
           div(x="86%" y="13%" tooltip="C" numero="+")
             .h5.mb-4 Guardar datos en MongoDB
             p La base de datos MongoDB dispone de los siguientes métodos para realizar la inserción de datos:
@@ -68,9 +68,9 @@
 
           div(x="86%" y="38%" tooltip="R" numero="+")
             .h5.mb-4 Consultas
-            p En MongoDB también se puede realizar una búsqueda de todos los documentos dentro de una colección por medio del método 
+            p En MongoDB también se puede realizar una búsqueda de todos los documentos dentro de una colección por medio del método
               em Find()
-              |, como en el caso de SQL sería un 
+              |, como en el caso de SQL sería un
               em SELECT * FROM.
             ol
               li.mb-3
@@ -116,7 +116,7 @@
 
           div(x="86%" y="87%" tooltip="D" numero="+")
             .h5.mb-4 Eliminación de datos en MongoDB
-            p MongoDb nos brinda dos métodos para la eliminación de datos dentro de una colección; a continuación, se explica cada uno de los métodos:
+            p MongoDB nos brinda dos métodos para la eliminación de datos dentro de una colección; a continuación, se explica cada uno de los métodos:
             ol
               li.mb-3
                 i.fas.fa-square.cac.me-3
@@ -145,7 +145,7 @@
                 p.mb-0 Para profundizar un poco más en las operaciones CRUD se le invita revisar el documento anexo.
               .col.mb-3.mb-sm-0
                 a.boton.color-acento-contenido(:href="obtenerLink('downloads/CF14_Anexo2.pdf')" target="_blank" type="application/pdf")
-                  span(style='color:#12263F !important') Descargar 
+                  span(style='color:#12263F !important') Descargar
                   i.fas.fa-file-download(style='color:#12263F !important')
 
     h3(data-aos="fade-right")
@@ -160,14 +160,14 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema5/img5-4.svg', alt='Índices')
-              
+
           div(x="69%" y="22%" tooltip="1" numero="+").d-flex.align-items-center
             p Los índices en MongoDB se implementan para brindar una eficiencia durante la ejecución de las diferentes consultas que son activadas desde el cliente. En caso de no implementarse índices en la base de datos de MongoDB se tendría que realizar un escaneo completo de todo el documento presente en las colecciones en busca de la obtención de un resultado, gastando así mucho más tiempo y recursos, utilizando índices se puede seleccionar la colección adecuada evitando el escaneo competo de todas las colecciones. Los índices son creados a nivel de colección.
 
           div(x="69%" y="42%" tooltip="2" numero="+")
-            h5 
+            h5
               em db.collection_name.createIndex()
-            p Este método se implementa para construir un índice en la colección de documentos. Permite además la creación de índices adicionales utilizando el método 
+            p Este método se implementa para construir un índice en la colección de documentos. Permite además la creación de índices adicionales utilizando el método
               em createIndex()
               | con el objetivo de respaldar la consultas y operaciones.
 
@@ -182,7 +182,7 @@
             h5
               em db.collection_name.getIndexes()
             p Este método se implementa para mostrar la descripción de todos los índices de la colección.
-                    
+
             .row.justify-content-center.align-items-center
               .col-lg-10
                 .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
@@ -194,7 +194,7 @@
           div(x="69%" y="62%" tooltip="3" numero="+")
             .row
               .col-md-6
-                h5.mb-4 Ejemplo del método 
+                h5.mb-4 Ejemplo del método
                   em db.collection_name.createIndex()
                 p El índice se crea en orden ascendente.
                 figure
@@ -206,9 +206,9 @@
           div(x="69%" y="82%" tooltip="4" numero="+")
             .row
               .col-md-4
-                h5.mb-4 Ejemplo del método 
+                h5.mb-4 Ejemplo del método
                   em db.collection_name.getIndexes()
-                p 
+                p
                   em db.orders_detail.getIndexes()
               .col-md-8
                 figure
@@ -216,7 +216,7 @@
 
     h3(data-aos="fade-right").mb-5
       i.fas.fa-square.cac.me-3
-      |Validación de 
+      |Validación de
       em scripts
 
     .row.align-items-center.mb-5
@@ -243,16 +243,16 @@
               li.mb-3
                 i.fas.fa-square.cac.me-3
                 |Un índice no tiene multikeyPaths, pero hay documentos de varias claves.
-            p Si se detectan inconsistencias por parte del 
+            p Si se detectan inconsistencias por parte del
               b
-                em db.colección.validar() 
+                em db.colección.validar()
               |comando, se devuelve una advertencia y el indicador de reparación en el índice se establece en verdadero.
-            
+
           .row.justify-content-center(titulo="Sintaxis:")
             .col-md-10
               figure
                 img(src='@/assets/curso/temas/tema5/img5-10.svg', alt='Código')
-                figcaption Nota: adaptado de MongoDb. (s/f).
+                figcaption Nota: adaptado de MongoDB. (s/f).
 
           .row(titulo="Ejemplos")
             ol.lista-ol--cuadro
@@ -324,7 +324,7 @@
             i.fas.fa-square.cac.me-3
             |
             em OpenRefine
-            |, es una herramienta 
+            |, es una herramienta
             em opensource
             |, su objeto es mejorar la calidad de los datos y su respectiva estructura corrigiendo errores comunes, datos incompletos, duplicidades o inconsistencias.
           li.mb-3
@@ -336,14 +336,14 @@
             i.fas.fa-square.cac.me-3
             |
             em Mr Data Converter
-            |, es una aplicación web que permite convertir datos que se encuentran en formato CSV o 
-            em Excel 
+            |, es una aplicación web que permite convertir datos que se encuentran en formato CSV o
+            em Excel
             |a otros formatos como CSV, JSON, HTML y XML.
           li.mb-3
             i.fas.fa-square.cac.me-3
             |
             em Beautify Converters
-            |, permite convertir datos a formatos JSON, SQL, CSV o Excel, entre otros. Pertenece a la colección de herramientas online gratuitas de 
+            |, permite convertir datos a formatos JSON, SQL, CSV o Excel, entre otros. Pertenece a la colección de herramientas online gratuitas de
             em Beautify Tools.
 
     h3(data-aos="fade-right").mb-5
@@ -368,19 +368,19 @@
         ol
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Ejecución: cuando ya sea realizando de forma manual cada uno de los eventos (realizando la ejecución mediante comandos), o automática por medio de un #[i framework].
-            br
+            span #[strong Ejecución]: cuando ya sea realizando de forma manual cada uno de los eventos (realizando la ejecución mediante comandos), o automática por medio de un #[i framework].
+
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Lectura de ficheros: todos los cambios ejecutados en la base de datos son almacenados en ficheros, que la herramienta #[i liquibase] los llama #[i Changelogs].
-            br
+            span #[strong Lectura de ficheros]: todos los cambios ejecutados en la base de datos son almacenados en ficheros, que la herramienta #[i liquibase] los llama #[i Changelogs].
+
           li.mb-3
             i.fas.fa-square.cac.me-3
-            | Validación con la base de datos: una vez #[i liquibase] sepa qué cambios existen en tus #[i changelogs], los cruza con su tabla interna llamada #[i DATABASECHANGELOG], la principal tabla de versiones/cambios que se crea durante la primera ejecución.
-            br
+            span #[strong Validación con la base de datos]: una vez #[i liquibase] sepa qué cambios existen en tus #[i changelogs], los cruza con su tabla interna llamada #[i DATABASECHANGELOG], la principal tabla de versiones/cambios que se crea durante la primera ejecución.
+
           li.mb-3
             i.fas.fa-square.cac.me-3
-            |Aplicación de cambios: cuando se tiene claridad en los cambios a realizar, se debe ejecutar y actualizar la tabla de versiones.
+            span #[strong Aplicación de cambios]: cuando se tiene claridad en los cambios a realizar, se debe ejecutar y actualizar la tabla de versiones.
 
     .col-lg-10.mx-auto.mb-5(data-aos="flip-up")
       .tarjeta.color-primario.img2-4.p-4
@@ -389,12 +389,12 @@
             img(src="@/assets/curso/temas/tema5/img5-15.svg" alt="Ruedas dentadas")
           .col-md-9.col-sm-10
             h4.mb-1 Uso y configuración
-            p ¿Qué es el 
+            p ¿Qué es el
               em changelog
               |?: es un fichero que contiene todos los cambios que se requieren aplicar en la base de datos. Estos ficheros pueden ser XML, YAML, JSON o SQL; para conocer algunos ejemplos de este puede consultar el documento anexo.
           .col-md-2
             a.boton.color-acento-contenido(:href="obtenerLink('downloads/CF14_Anexo3.pdf')" target="_blank" type="application/pdf")
-              span(style='color:#12263F !important') Descargar 
+              span(style='color:#12263F !important') Descargar
               i.fas.fa-file-download(style='color:#12263F !important')
 
     p.mb-5 En el siguiente video se puede observar el proceso de construcción de una base de datos, en un motor de bases de datos NoSQL:
@@ -403,7 +403,7 @@
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/h-iS3eNZGvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      
+
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="flip-up")
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: rgba(255, 179, 11, .15)")

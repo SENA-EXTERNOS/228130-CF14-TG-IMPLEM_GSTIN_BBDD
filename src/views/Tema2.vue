@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2-1.svg', alt='Código')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p Los sistemas de gestión de bases de datos DBMS #[em (Data Base Management System)], se refieren a un tipo de #[em software] muy específico, dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. El propósito general de los sistemas de gestión es el de administrar, de manera clara, sencilla y ordenada, un conjunto de datos que, posteriormente, se convertirán en información relevante para una organización. 
+        p Los sistemas de gestión de bases de datos DBMS #[em (Data Base Management System)], se refieren a un tipo de #[em software] muy específico, dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. El propósito general de los sistemas de gestión es el de administrar, de manera clara, sencilla y ordenada, un conjunto de datos que, posteriormente, se convertirán en información relevante para una organización.
 
     .bloque-texto-g.cfc.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
@@ -44,12 +44,12 @@
           li.mb-3
             i.fas.fa-square.cac.me-3
             |#[b Tiempo de respuesta:]
-            |lógicamente, es deseable minimizar el tiempo que el SGBD demora en proporcionar la información solicitada y en almacenar los cambios realizados. (Treviño, Vega, Quirós & Acuña, 2019).
+            |lógicamente, es deseable minimizar el tiempo que el SGBD demora en proporcionar la información solicitada y en almacenar los cambios realizados. (Treviño, Vega, Quirós & Acuña, 2019)
 
     .row.justify-content-center.mb-5
       .col-md-10(data-aos="flip-up")
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 En este sentido, la base de datos sólo sirve si existe un sistema que la gestione, un SGBD. En NoSQL, hay varios SGBD y la mayoría son de código libre o libre distribución. Es necesario tener en cuenta que, no obstante, pueden existir una gran variedad SGBD menos populares, pero que pueden ser una buena opción en el momento de trabajar para 
+          p.mb-0 En este sentido, la base de datos sólo sirve si existe un sistema que la gestione, un SGBD. En NoSQL, hay varios SGBD y la mayoría son de código libre o libre distribución. Es necesario tener en cuenta que, no obstante, pueden existir una gran variedad SGBD menos populares, pero que pueden ser una buena opción en el momento de trabajar para
             em Big Data.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -81,10 +81,10 @@
           .col-auto
             .row.justify-content-between.align-items-center
               .col-auto.mb-3.mb-sm-0
-                p Para conocer sobre la instalación de MongoBD y su configuración puede consultar el documento anexo.
+                p Para conocer sobre la instalación de MongoDB y su configuración puede consultar el documento anexo.
               .col.mb-3.mb-sm-0
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/CF14_Anexo1.pdf')" target="_blank" type="application/pdf")
-                  span(style='color:#12263F !important') Descargar 
+                  span(style='color:#12263F !important') Descargar
                   i.fas.fa-file-download(style='color:#12263F !important')
 
 </template>

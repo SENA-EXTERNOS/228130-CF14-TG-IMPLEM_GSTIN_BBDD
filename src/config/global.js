@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estructura de las bases de datos NoSQL',
     descripcionCurso:
-      'El componente estructura de las bases de datos NoSQL, aborda cada de bases de datos implementados bajo el enfoque de no relacionales; se aborda cada una de las temáticas por medio de la instalación de una base de datos no relacional como lo es Mongodb. Además, se fundamentan las diferentes consultas y operaciones en una base de datos.',
+      'El componente estructura de las bases de datos NoSQL, aborda de cada bases de datos implementados bajo el enfoque de no relacionales; se aborda cada una de las temáticas por medio de la instalación de una base de datos no relacional como lo es MongoDB. Además, se fundamentan las diferentes consultas y operaciones en una base de datos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

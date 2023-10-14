@@ -15,7 +15,7 @@
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
                   p.mb-0 En bases de datos no relacionales o NoSQL, no se realizan procedimientos almacenados, se pueden realizar funciones que se enfocan en casos puntuales para ejecutar en las bases de datos. A continuación, se aborda los procedimientos almacenados y su respectiva estructura en bases de datos SQL.
-  
+
     h3(data-aos="fade-right").mb-5
       i.fas.fa-square.cac.me-3
       |Procedimientos almacenados
@@ -38,10 +38,10 @@
             ol
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Recibir parámetros de 
-                em input 
-                |(entrada) y producir un 
-                em output 
+                |Recibir parámetros de
+                em input
+                |(entrada) y producir un
+                em output
                 |(valores de salida) como resultado a un programa que realice peticiones (llamadas).
               li.mb-3
                 i.fas.fa-square.cac.me-3
@@ -58,23 +58,18 @@
           .col-md-7.mb-4.mb-md-0
             p
               b Existen tres tipos de procedimientos almacenados:
-            p Procedimientos almacenados definidos por el usuario: este tipo de procedimientos se establece en la base de datos del sistema (
-              em Master, Model, MSDB…
-              |) o en la base de datos defina por el usuario. Además, los procedimientos definidos por este se construyen en 
-              em Transact
-              |-SQL o como una referencia a un método CLR de .NET.
-            p Procedimientos almacenados temporales: son un tipo de procedimientos definidos por el usuario que se almacenan en la base de datos 
-              em TempDB
-              |. Están clasificados en dos tipos:
+            p #[strong Procedimientos almacenados definidos por el usuario]: este tipo de procedimientos se establece en la base de datos del sistema (#[em Master, Model, MSDB…]) o en la base de datos defina por el usuario. p Además, los procedimientos definidos por este se construyen en #[em Transact]-SQL o como una referencia a un método CLR de .NET.
+            p #[strong Procedimientos almacenados temporales]: son un tipo de procedimientos definidos por el usuario que se almacenan en la base de datos #[em TempDB]. Están clasificados en dos tipos:
+
             ol
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Locales, su primer carácter inicia por “#”
+                span Locales, su primer carácter inicia por “#”
               li.mb-3
                 i.fas.fa-square.cac.me-3
-                |Globales, su primer carácter inicia por “##”
-            p Procedimientos almacenados del sistema de SQL: este tipo de procedimientos pertenece al lenguaje SQL server y sus primeros caracteres al definir un procedimiento inicia por “sp”. Estos se encuentran almacenados de manera física en el motor de base de datos y de forma oculta en la parte de 
-              em resource.
+                span Globales, su primer carácter inicia por “##”
+
+            p #[strong Procedimientos almacenados del sistema de SQL]: este tipo de procedimientos pertenece al lenguaje SQL server y sus primeros caracteres al definir un procedimiento inicia por “sp”. Estos se encuentran almacenados de manera física en el motor de base de datos y de forma oculta en la parte de #[em resource].
           .col-md-3
             figure
               img(src='@/assets/curso/temas/tema4/img4-4.png', alt='Piezas de rompecabezas')
@@ -86,17 +81,17 @@
               .row.justify-content-center
                 .col-md-10
                   .titulo-sexto.color-acento-botones.cfc4
-                    p.mb-0 
+                    p.mb-0
                       em “Create procedure”
             p A continuación, se define cómo es la sintaxis de un procedimiento almacenado:
               .row.justify-content-center
                 .col-md-10
                   figure
                     img(src='@/assets/curso/temas/tema4/img4-6.svg', alt='Sintaxis procedimiento almacenado')
-            p El ejemplo que se presenta a continuación, se observa un procedimiento que realiza una consulta de varias instrucciones. En la consulta se establece una variable, donde se ejecuta una instrucción 
-              em insert 
-              |y se obtiene el resultado como un 
-              em string 
+            p El ejemplo que se presenta a continuación, se observa un procedimiento que realiza una consulta de varias instrucciones. En la consulta se establece una variable, donde se ejecuta una instrucción
+              em insert
+              |y se obtiene el resultado como un
+              em string
               |de texto con formato.
 
               .row.justify-content-center
@@ -132,7 +127,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Características")
             .col-md-10.col-sm-10.order-lg-first.order-sm-last
-              p Teniendo en cuenta la gran variedad de funciones realizadas en una base de datos y tomando como referencia la base de datos MongoDB, las funciones a construir se realizan por medio del lenguaje JavaScript y son almacenadas en una colección del sistema llamada 
+              p Teniendo en cuenta la gran variedad de funciones realizadas en una base de datos y tomando como referencia la base de datos MongoDB, las funciones a construir se realizan por medio del lenguaje JavaScript y son almacenadas en una colección del sistema llamada
                 em system.js.
               p Para la construcción de una función en MongoDB se debe tener en cuenta:
               ol
@@ -148,12 +143,12 @@
             .col-md-2.col-sm-2
               figure
                 img(src='@/assets/curso/temas/tema4/img4-10.svg', alt='Diseño base de datos')
-          
+
           div(titulo="Estructura")
             .row
               .col-md-10.col-sm-10.order-lg-first.order-sm-last
                 p La sintaxis de una función en MongoDB es de la siguiente forma:
-                p Ejemplo de una función suma de dos números. Esta función por nombre es “sum”, donde recibe dos parámetros x y donde a su vez son los números para realizar dicha operación.
+                p Ejemplo de una función suma de dos números. Esta función por nombre es “sum”, donde recibe dos parámetros (x,y) donde a su vez son los números para realizar dicha operación.
                 .row.justify-content-center.mb-5
                   .col-md-10
                     figure
@@ -168,7 +163,7 @@
                   .col-md-10
                     figure.mb-4
                       img(src='@/assets/curso/temas/tema4/img4-14.svg', alt='Consulta a función almacenada')
-                    
+
                     figure
                       img(src='@/assets/curso/temas/tema4/img4-14.svg', alt='Eliminación de función almacenada')
               .col-md-2.col-sm-2
@@ -184,14 +179,14 @@
         figure
           img(src='@/assets/curso/temas/tema4/img4-25.svg', alt='Hoja')
       .col-lg-11.col-sm-10(data-aos="fade-left")
-        p.mb-0 Los disparadores implementados en MongoDB, son una pieza fundamental donde se permite ejecutar la lógica por parte del servidor del cliente, después que ocurra un evento en la base de datos; por ejemplo, actualizaciones en las bases de datos pueden ser: eliminación, inserción y modificación de datos. 
+        p.mb-0 Los disparadores implementados en MongoDB, son una pieza fundamental donde se permite ejecutar la lógica por parte del servidor del cliente, después que ocurra un evento en la base de datos; por ejemplo, actualizaciones en las bases de datos pueden ser: eliminación, inserción y modificación de datos.
     p.mb-5(data-aos='fade-right') Los disparadores, también llamados activadores, tiene el poder de actualizar la información después de diferentes cambios, como la inserción de nuevos datos en las bases; teniendo en cuenta esto, verifiquemos sus principales variables:
     .row.mb-5
       .col-md-9(data-aos="fade-left")
         TabsA.color-primario
           .tarjeta.tarjeta--gris.p-4(titulo="Características")
-            p MongoDB 
-              em Triggers 
+            p MongoDB
+              em Triggers
               |(disparadores) brinda a los usuarios los beneficios de las siguientes maneras:
             ol
               li.mb-3
@@ -214,17 +209,17 @@
               li.mb-3
                 i.fas.fa-square.cac.me-3
                 |
-                b Disparadores de base de datos: 
+                b Disparadores de base de datos:
                 |estos activadores realizan una acción particular una vez que se agrega, elimina o actualiza un documento.
               li.mb-3
                 i.fas.fa-square.cac.me-3
                 |
-                b Desencadenadores programados: 
+                b Desencadenadores programados:
                 |estas son acciones programadas que ocurren en un intervalo establecido o en un momento específico. Por ejemplo, la ejecución de un proceso de limpieza de registros o la generación de un informe sobre posibles novedades en las transacciones después de cada minuto.
               li.mb-3
                 i.fas.fa-square.cac.me-3
                 |
-                b Disparadores de autenticación: 
+                b Disparadores de autenticación:
                 |estas son acciones que ocurren durante la creación o eliminación de usuarios o también a las acciones de inicio de sesión en MongoDB. Se implementan también para realizar el mantenimiento del usuario y el seguimiento de la auditoría del usuario.
           .tarjeta.tarjeta--gris.p-4(titulo="Estructura")
             p Los objetos de evento de actualizaciones en la base de datos tienen la siguiente sintaxis:
@@ -233,7 +228,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema4/img4-17.svg', alt='Estructura de disparador')
                   figcaption Nota: adaptada de MongoDB, (s/f).
-            
+
             p Un disparador se configura con la siguiente expresión de proyecto:
             .row.justify-content-center.mb-3
               .col-md-10
@@ -262,7 +257,7 @@
             .col-lg-7
               .contenedor-dashed.p-4
                 .bloque-texto-a__texto.p-4
-                  p.mb-0 Los paquetes en PL/SQL, tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta manera, se consigue obtener un único objeto en todas las instrucciones, asociadas a un determinado tipo de tarea. 
+                  p.mb-0 Los paquetes en PL/SQL, tienen un papel importante que es el de agrupar funciones y procedimientos de forma lógica. De esta manera, se consigue obtener un único objeto en todas las instrucciones, asociadas a un determinado tipo de tarea.
     p.mb-5(data-aos='fade-right') Por ejemplo, si tenemos un conjunto de funciones y procedimientos para realizar cálculos matemáticos, los podemos agrupar en un paquete:
 
     .row.mb-5
@@ -288,7 +283,7 @@
               li.mb-3
                 i.fas.fa-square.cac.me-3
                 |Sobrecarga de los paquetes.
-          
+
           div(titulo="Estructura")
             p Es fundamental que al construir un paquete (
               em package

@@ -35,7 +35,7 @@
           .col-md-4.col-sm-5
             figure
               img(src='@/assets/curso/temas/tema3/img3-2.svg', alt='BBDD NoSQL')
-            
+
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Ejemplo bases de datos basadas en clave valor
@@ -48,41 +48,41 @@
                     th Persona 2
                 tbody
                   tr
-                    td 
-                      b Cédula: 
+                    td
+                      b Cédula:
                       |1029283762
-                    td 
-                      b Cédula: 
+                    td
+                      b Cédula:
                       |98765322
                   tr
-                    td 
-                      b Nombre: 
+                    td
+                      b Nombre:
                       |JUAN CARLOS
-                    td 
-                      b Nombre: 
+                    td
+                      b Nombre:
                       |DANIELA
                   tr
-                    td 
-                      b Apellidos: 
+                    td
+                      b Apellidos:
                       |MARTINEZ
-                    td 
-                      b Apelldos: 
+                    td
+                      b Apellidos:
                       |VELEZ LEMOS
                   tr
-                    td 
-                      b Correo: 
+                    td
+                      b Correo:
                       |juancho@nerss.et
-                    td 
-                      b Correo: 
+                    td
+                      b Correo:
                       |dnala@nerss.et
                   tr
-                    td 
-                      b Teléfono: 
+                    td
+                      b Teléfono:
                       |3150817273
                     td
                   tr
-                    td 
-                      b Teléfono: 
+                    td
+                      b Teléfono:
                       |3168272372
                     td
             p.mb-0 Se toma la cédula como una especie de llave para identificar a una persona, es decir, el documento es el identificador único para cada persona y no hay dos personas con el mismo número de documento.
@@ -105,7 +105,7 @@
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 La base de datos sería:
-            
+
 
           .row.justify-content-center.mb-5
               .col-md-6
@@ -163,14 +163,14 @@
                       tr
                         td persona/98765322/correo
                         td dnala@nerss.et
-          p.mb-0 Estas bases de datos son óptimas para consultas en ambientes de respuesta rápida, para aplicaciones de tiempo real, como sistemas de telefonía IP o sistemas de 
+          p.mb-0 Estas bases de datos son óptimas para consultas en ambientes de respuesta rápida, para aplicaciones de tiempo real, como sistemas de telefonía IP o sistemas de
             em chats
             |.
 
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Listado de las bases de datos más reconocidas
-            
+
             .tabla-a.color-acento-contenido.mb-5
               table
                 thead
@@ -180,14 +180,14 @@
                 tbody
                   tr
                     td Cassandra DB
-                    td Apache Cassandra es una base de datos distribuida NoSQL de código abierto en la que confían miles de empresas por su escalabilidad y alta disponibilidad sin comprometer el rendimiento. La escalabilidad lineal y la tolerancia a fallas comprobada en 
-                      em hardware 
+                    td Apache Cassandra es una base de datos distribuida NoSQL de código abierto en la que confían miles de empresas por su escalabilidad y alta disponibilidad sin comprometer el rendimiento. La escalabilidad lineal y la tolerancia a fallas comprobada en
+                      em hardware
                       |básico o infraestructura en la nube la convierten en la plataforma perfecta para datos de misión crítica. <a href="https://cassandra-apache-org.translate.goog/_/index.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sc" target="_blank" class="cta"><u>Sitio Web de Apache Cassandra.</u></a>
                   tr
                     td Redis
-                    td 
+                    td
                       em Redis
-                      |, que significa 
+                      |, que significa
                       em remote dictionary server
                       |; es una base de datos de clave-valor gestionado en código abierto. Se caracteriza por sus grandes capacidades básicas y los casos de uso funcionales.
           .col-md-4
@@ -212,11 +212,11 @@
         h4 Definición
         .row.justify-content-center
           .col-md-10.col-sm-10
-            p XML, sigla en inglés de 
+            p XML, sigla en inglés de
               em extensible markup language
-              |, traducido como “lenguaje de marcado extensible” o “lenguaje de marcas extensible”, es un metalenguaje que permite definir lenguajes de marcas, desarrollado por el 
-              em World Wide Web Consortium 
-              |(W3C), utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es, a su vez, un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros, el lenguaje XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. (Wikipedia, 2021).
+              |, traducido como “lenguaje de marcado extensible” o “lenguaje de marcas extensible”, es un metalenguaje que permite definir lenguajes de marcas, desarrollado por el
+              em World Wide Web Consortium
+              |(W3C), utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es, a su vez, un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros, el lenguaje XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información. (Wikipedia, 2021)
 
             h4 En base de datos relacional
             p Si se quisiera modelar esto en una base de datos relacional, seguramente se definiría una tabla para personas (con atributos nombre y correo) y una tabla para los correos, con dos relaciones a la tabla personal: una para el remitente y otra para el destino.
@@ -227,11 +227,11 @@
         .row.justify-content-center.align-items-center
           .col-lg-4
             .titulo-sexto.color-acento-contenido.cfc(data-aos="fade-left")
-              p.mb-0 
-                b Persona: 
+              p.mb-0
+                b Persona:
                 |(nombre, correo)
               p.mb-0
-                b Correo: 
+                b Correo:
                 |(asuntos y texto)
 
         p Sin embargo, en XML en lugar de tener filas en las tablas, cada correo es un archivo con la estructura dada en el ejemplo.
@@ -315,7 +315,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img3-14.svg', alt='XML vs JSON')
-                    
+
         .row
           .col-md-12.mb-4.mb-md-0
             h4 Bases de datos no documentadas
@@ -332,11 +332,11 @@
                   td MongoDB es un sistema gestor de base de datos orientado a documentos multiplataforma disponible en la fuente. Categorizado como un sistema gestor de base de datos NoSQL, MongoDB implementa documentos similares a JSON con esquemas opcionales. MongoDB fue construido por MongoDB Inc. y se obtiene bajo licencia pública del lado del servidor (SSPL).
                 tr
                   td Raven DB
-                  td RavenDB es una base de datos documental desarrollado en código abierto y además está integrada con el lenguaje C# y desarrollada por 
+                  td RavenDB es una base de datos documental desarrollado en código abierto y además está integrada con el lenguaje C# y desarrollada por
                     em hibernating rhinos
-                    |. Es una base de datos multiplataforma compatible con 
-                    em Windows, Linux 
-                    |y 
+                    |. Es una base de datos multiplataforma compatible con
+                    em Windows, Linux
+                    |y
                     em MacOS
                     |. RavenDB almacena datos como documentos JSON y soporta clústeres distribuidos con replicación maestro-maestro.
 
@@ -355,7 +355,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema3/img3-15.svg', alt='Grafos')
           figcaption Nota: adaptado de Macarrón, (2021).
-          
+
     .row.mb-4
       .col-lg-1.col-sm-2(data-aos="fade-right")
         figure
@@ -382,7 +382,7 @@
                 td Neo4j
                 td Neo4j es un sistema de bases de datos libre, implementado en Java. Gran parte de los programadores describen esta base de datos como un motor de persistencia embebido en Java, completamente transaccional que almacena los datos estructurándolos en forma de grafos en lugar de tablas.
               tr
-                td Sones 
+                td Sones
                   em GraphDB
                 td Es una base de datos de gráficos, basada en estructura de grafos desarrollada por la empresa alemana sones GmbH.
 
