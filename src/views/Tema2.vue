@@ -73,16 +73,16 @@
             i.fas.fa-square.cac.me-3
             |Reven DB
 
-    .col-lg-10.mx-auto
-      .tarjeta.color-primario.img2-4.p-4.mb-5
+    .col-lg-10.mx-auto      
+      .tarjeta.color-primario.p-3.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema2/img2-5.svg")
-          .col-auto
+                img(src="@/assets/curso/temas/tema2/img2-5.svg")
+          .col
             .row.justify-content-between.align-items-center
-              .col-auto.mb-3.mb-sm-0
-                p Para conocer sobre la instalación de MongoDB y su configuración puede consultar el documento anexo.
               .col.mb-3.mb-sm-0
+                p Para conocer sobre la instalación de MongoDB y su configuración puede consultar el documento anexo.
+              .col-sm-auto
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/CF14_Anexo1.pdf')" target="_blank" type="application/pdf")
                   span(style='color:#12263F !important') Descargar
                   i.fas.fa-file-download(style='color:#12263F !important')

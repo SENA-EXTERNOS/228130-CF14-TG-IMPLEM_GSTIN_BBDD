@@ -389,7 +389,7 @@
             img(src="@/assets/curso/temas/tema5/img5-15.svg" alt="Ruedas dentadas")
           .col-md-9.col-sm-10
             h4.mb-1 Uso y configuración
-            p ¿Qué es el
+            p ¿Qué es el 
               em changelog
               |?: es un fichero que contiene todos los cambios que se requieren aplicar en la base de datos. Estos ficheros pueden ser XML, YAML, JSON o SQL; para conocer algunos ejemplos de este puede consultar el documento anexo.
           .col-md-2
