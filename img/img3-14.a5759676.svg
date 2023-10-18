@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="609.667" height="434" viewBox="0 0 609.667 434">
+  <g id="Grupo_146480" data-name="Grupo 146480" transform="translate(-9041 -7871)">
+    <rect id="Rectángulo_293978" data-name="Rectángulo 293978" width="609" height="429" transform="translate(9041 7876)" fill="#fff"/>
+    <g id="Grupo_146478" data-name="Grupo 146478">
+      <text id="_menu_id_file_value_Archivo_popup_menuitem_value_Nuevo_onclick_CreateNewDoc_menuitem_value_Abrir_onclick_OpenDoc_menuitem_value_Cerrar_onclick_CloseDoc_menuitem_value_Guardar_onclick_SaveDoc_" data-name="&lt;menu id=“file” value=“Archivo”&gt;
+
+    &lt;popup&gt;
+
+    &lt;menuitem value=“Nuevo” onclick=“CreateNewDoc()”/&gt;
+
+    &lt;menuitem value=“Abrir” onclick=“OpenDoc()” /&gt;
+
+    &lt;menuitem value=“Cerrar” onclick=“CloseDoc()” /&gt;
+
+    &lt;menuitem value=“Guardar” onclick=“SaveDoc(" transform="translate(9067 7942)" fill="#12263f" font-size="13" font-family="Roboto-Italic, Roboto" font-style="italic" style="isolation: isolate"><tspan x="0" y="0">&lt;menu id=“file” value=“Archivo”&gt;</tspan><tspan x="0" y="14"></tspan><tspan x="0" y="28" xml:space="preserve">    &lt;popup&gt;</tspan><tspan x="0" y="42"></tspan><tspan x="0" y="56" xml:space="preserve">    &lt;menuitem value=“Nuevo” onclick=“CreateNewDoc()”/&gt;</tspan><tspan x="0" y="70"></tspan><tspan x="0" y="84" xml:space="preserve">    &lt;menuitem value=“Abrir” onclick=“OpenDoc()” /&gt;</tspan><tspan x="0" y="98"></tspan><tspan x="0" y="112" xml:space="preserve">    &lt;menuitem value=“Cerrar” onclick=“CloseDoc()” /&gt;</tspan><tspan x="0" y="126"></tspan><tspan x="0" y="140" xml:space="preserve">    &lt;menuitem value=“Guardar” onclick=“SaveDoc()” /&gt;</tspan><tspan x="0" y="154"></tspan><tspan x="0" y="168" xml:space="preserve">    &lt;/popup&gt;</tspan><tspan x="0" y="182"></tspan><tspan x="0" y="196">&lt;/menu&gt;</tspan></text>
+    </g>
+    <g id="Grupo_146479" data-name="Grupo 146479">
+      <text id="_menu_:_id_:_file_value_:_Archivo_popup_:_menuitems_:_value_:_Nuevo_onclick_:_CreateNewDoc_value_:_Abrir_onclick_:_OpenDoc_value_" data-name="{
+  &quot;menu&quot;: {
+    &quot;id&quot;: &quot;file&quot;,
+    &quot;value&quot;: &quot;Archivo&quot;,
+    &quot;popup&quot;: {
+    &quot;menuitems&quot;: [
+      {
+      &quot;value&quot;: &quot;Nuevo&quot;,
+      &quot;onclick&quot;: &quot;CreateNewDoc()&quot;
+      },
+      {
+      &quot;value&quot;: &quot;Abrir&quot;,
+      &quot;onclick&quot;: &quot;OpenDoc()&quot;
+      },
+      {
+      &quot;value&quot;" transform="translate(9448 7942)" fill="#12263f" font-size="13" font-family="Roboto-Italic, Roboto" font-style="italic" style="isolation: isolate"><tspan x="0" y="0">{</tspan><tspan x="0" y="14" xml:space="preserve">  &quot;menu&quot;: {</tspan><tspan x="0" y="28" xml:space="preserve">    &quot;id&quot;: &quot;file&quot;,</tspan><tspan x="0" y="42" xml:space="preserve">    &quot;value&quot;: &quot;Archivo&quot;,</tspan><tspan x="0" y="56" xml:space="preserve">    &quot;popup&quot;: {</tspan><tspan x="0" y="70" xml:space="preserve">    &quot;menuitems&quot;: [</tspan><tspan x="0" y="84" xml:space="preserve">      {</tspan><tspan x="0" y="98" xml:space="preserve">      &quot;value&quot;: &quot;Nuevo&quot;,</tspan><tspan x="0" y="112" xml:space="preserve">      &quot;onclick&quot;: &quot;CreateNewDoc()&quot;</tspan><tspan x="0" y="126" xml:space="preserve">      },</tspan><tspan x="0" y="140" xml:space="preserve">      {</tspan><tspan x="0" y="154" xml:space="preserve">      &quot;value&quot;: &quot;Abrir&quot;,</tspan><tspan x="0" y="168" xml:space="preserve">      &quot;onclick&quot;: &quot;OpenDoc()&quot;</tspan><tspan x="0" y="182" xml:space="preserve">      },</tspan><tspan x="0" y="196" xml:space="preserve">      {</tspan><tspan x="0" y="210" xml:space="preserve">      &quot;value&quot;: &quot;Cerrar&quot;,</tspan><tspan x="0" y="224" xml:space="preserve">      &quot;onclick&quot;: &quot;CloseDoc()&quot;</tspan><tspan x="0" y="238" xml:space="preserve">      },</tspan><tspan x="0" y="252" xml:space="preserve">      {</tspan><tspan x="0" y="266" xml:space="preserve">      &quot;value&quot;: &quot;Guardar&quot;,</tspan><tspan x="0" y="280" xml:space="preserve">      &quot;onclick&quot;: &quot;SaveDoc()&quot;</tspan><tspan x="0" y="294" xml:space="preserve">      }</tspan><tspan x="0" y="308" xml:space="preserve">    ]</tspan><tspan x="0" y="322" xml:space="preserve">    }</tspan><tspan x="0" y="336" xml:space="preserve">  }</tspan><tspan x="0" y="350">}</tspan></text>
+    </g>
+    <rect id="Rectángulo_293979" data-name="Rectángulo 293979" width="609.666" height="5" transform="translate(9041.001 7871)" fill="#ffb30b"/>
+    <rect id="Rectángulo_293980" data-name="Rectángulo 293980" width="609.598" height="44" transform="translate(9041 7876)" fill="#e8e8e8"/>
+    <text id="Su_representación_en_XML" data-name="Su representación en XML" transform="translate(9147 7900)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Su representación en XML</tspan></text>
+    <text id="Su_equivalente_en_JSON" data-name="Su equivalente en JSON" transform="translate(9459 7900)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Su equivalente en JSON</tspan></text>
+  </g>
+</svg>

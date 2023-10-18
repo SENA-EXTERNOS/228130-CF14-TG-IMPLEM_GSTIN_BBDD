@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439" height="95" viewBox="0 0 439 95">
+  <g id="Grupo_146497" data-name="Grupo 146497" transform="translate(-743 -5704)">
+    <g id="Grupo_146467" data-name="Grupo 146467" transform="translate(-28)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="439" height="95" transform="translate(771 5704)" fill="#ffe9ba"/>
+      <text id="_show_dbs_use_mongodb_test_db.orders_detail.createIndex_order_date_:_1_" data-name="&gt; show dbs
+&gt; use mongodb_test
+db.orders_detail.createIndex( {  &quot;order_date&quot;: 1 } )" transform="translate(795 5719)" fill="#182c44" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="0" y="15">&gt; show dbs</tspan><tspan x="0" y="39">&gt; use mongodb_test</tspan><tspan x="0" y="63" xml:space="preserve">db.orders_detail.createIndex( {  &quot;order_date&quot;: 1 } )</tspan></text>
+      <rect id="Rectángulo_293787" data-name="Rectángulo 293787" width="8" height="95" transform="translate(771 5704)" fill="#ffb30b"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256.5" height="130" viewBox="0 0 256.5 130">
+  <g id="Grupo_146481" data-name="Grupo 146481" transform="translate(-488 -2397.213)">
+    <g id="Grupo_132343" data-name="Grupo 132343" transform="translate(-8854 58.894)">
+      <rect id="Rectángulo_293716" data-name="Rectángulo 293716" width="256.5" height="125" transform="translate(9342 2343.319)" fill="#fff"/>
+      <rect id="Rectángulo_674" data-name="Rectángulo 674" width="256.445" height="5" transform="translate(9342 2338.319)" fill="#ffb30b"/>
+      <path id="Trazado_193450" data-name="Trazado 193450" d="M255.667,0H0" transform="translate(9342.807 2378.319)" fill="none" stroke="#e1e1e1" stroke-width="2"/>
+      <line id="Línea_144" data-name="Línea 144" x1="255.667" transform="translate(9342.807 2408.319)" fill="none" stroke="#e1e1e1" stroke-width="2"/>
+      <line id="Línea_145" data-name="Línea 145" x1="255.667" transform="translate(9342.807 2437.319)" fill="none" stroke="#e1e1e1" stroke-width="2"/>
+      <text id="Placa:_MSR-13" data-name="Placa: MSR-13" transform="translate(9359 2349.319)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Placa: </tspan><tspan y="17" font-family="Roboto-Regular, Roboto" font-weight="400">MSR-13</tspan></text>
+      <text id="Modelo:_2015" data-name="Modelo: 2015" transform="translate(9359 2384.319)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Modelo:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> 2015</tspan></text>
+      <text id="Marca:_MAZDA" data-name="Marca: MAZDA" transform="translate(9359 2413.319)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Marca: </tspan><tspan y="17" font-family="Roboto-Regular, Roboto" font-weight="400">MAZDA</tspan></text>
+      <text id="Tipo:_SEDAN" data-name="Tipo: SEDAN" transform="translate(9359 2443.319)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Tipo:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> SEDAN</tspan></text>
+    </g>
+  </g>
+</svg>

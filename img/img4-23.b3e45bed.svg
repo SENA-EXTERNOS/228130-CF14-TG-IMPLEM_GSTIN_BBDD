@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="689" height="144" viewBox="0 0 689 144">
+  <g id="Grupo_146491" data-name="Grupo 146491" transform="translate(-273 -7212)">
+    <g id="Grupo_131854" data-name="Grupo 131854" transform="translate(0 373)">
+      <rect id="Rectángulo_293756" data-name="Rectángulo 293756" width="689" height="144" rx="10" transform="translate(273 6839)"/>
+      <text id="CREATE_OR_REPLACE_PACKAGE_BODY_nombre_paquete_IS_AS_declaraciones_de_variables_cursores..._subprogramas_en_PLSQL_END_nombre_paquete" data-name="CREATE [OR REPLACE] PACKAGE BODY nombre_paquete
+IS | AS
+    declaraciones de variables, cursores...
+    subprogramas en PLSQL
+END nombre_paquete" transform="translate(297 6878)" fill="#00defc" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">CREATE</tspan><tspan y="0" xml:space="preserve" fill="#fff"> [</tspan><tspan y="0">OR REPLACE</tspan><tspan y="0" fill="#fff">] PACKAGE BODY nombre_paquete</tspan><tspan x="0" y="19.2">IS</tspan><tspan y="19.2" xml:space="preserve" fill="#fff"> | </tspan><tspan y="19.2">AS</tspan><tspan fill="#fff"><tspan x="0" y="38.4" xml:space="preserve">    declaraciones de variables, cursores...</tspan><tspan x="0" y="57.6" xml:space="preserve">    subprogramas en PLSQL</tspan></tspan><tspan x="0" y="76.8">END</tspan><tspan y="76.8" xml:space="preserve" fill="#fff"> nombre_paquete</tspan></text>
+    </g>
+  </g>
+</svg>
